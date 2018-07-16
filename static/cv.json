@@ -1,68 +1,60 @@
 {
   "theme": "base",
-  "pageTitle": "Dennis Russell - CV",
+  "pageTitle": "Ally Dewar",
   "showMenu": true,
   "profile": {
-    "firstname": "Dennis",
-    "lastname": "Russell",
-    "brief": "Instructor, Political Scientist, and Football Watcher.",
+    "firstname": "Ally",
+    "lastname": "Dewar",
+    "brief": "Product Manager and Software/Web Development Manager",
     "image": "./static/profile.jpg",
     "details": [
       {
         "title": "Location",
-        "value": "Sendai, Japan",
+        "value": "Glasgow, United Kingdom",
         "icon": "fa-globe"
       },
       {
         "title": "Hometown",
-        "value": "Philadelphia",
+        "value": "Troon, United Kingdom",
         "icon": "fa-map-signs"
       }
     ],
     "external": [
       {
         "title": "LinkedIn",
-        "value": "http://linkedin.com/in/dennisbovell",
+        "value": "https://www.linkedin.com/in/alastairdewar/",
         "icon": "fa-linkedin"
       },
       {
         "title": "Github",
-        "value": "http://github.com/rasserudenisu",
+        "value": "http://github.com/adewra",
         "icon": "fa-github"
       },
       {
-        "title": "Twitter",
-        "value": "https://twitter.com/burasseru",
-        "icon": "fa-twitter"
+        "title": "Email",
+        "value": "mailto:admin@adewra.com",
+        "icon": "fa-envelope"
       },
       {
-        "title": "Skype",
-        "value": "skype:drbovell?chat",
-        "icon": "fa-skype"
+        "title": "Telephone",
+        "value": "tel:08455196614",
+        "icon": "fa-phone"
       }
     ]
   },
   "biography": {
     "display": true,
-    "text": "Well-travelled university graduate. University studies focused on Japanese domestic, and international politics. Graduate studies in political science, with coursework steeped in research methods, theory, and practical application. Various experience with Javascript, Java, and Swift, plus related frameworks.",
-    "headline": "About Me"
+    "text": "A strong self-starter with a passion for all things technical. I am a sociable and open-minded individual inspired by problem solving and developing creative solutions. Always looking to get other people on board with ideas and getting people excited about things in the same way I do. I am a keen traveller, cyclist and a season ticket holder with a local football club. I also have a strong interest in comedy, particularly satire, improv & stand-up.",
+    "headline": "Persona & Interests"
   },
   "honors": {
     "display": true,
     "items": [
       {
-        "name": "Villanova University Graduate Tuition Scholarship",
-        "start": "2015-08-24",
-        "end": "2016-05-19",
-        "auspices": "Villanova University",
-        "description": "Received during my tenure as a graduate student."
-      },
-      {
-        "name": "Peter L. and Barbara B. Hunsberger Scholarship for Study Abroad",
-        "start": "2014-01-01",
-        "end": "2014-06-01",
-        "auspices": "Millersville University",
-        "description": "Contributed towards my study abroad at Kansai Gaidai University."
+        "name": "Dean's award for overall excellence",
+        "start": "2009-06-01",
+        "auspices": "University of Strathclyde",
+        "description": ""
       }
     ]
   },
@@ -71,28 +63,40 @@
     "displayProgress": true,
     "items": [
     {
-      "name": "Javascript",
-      "description": "Self-taught. Constructed several applications, especially with Vue.",
-      "value": 85,
-      "icon": "fa-bug"
+      "name": "Javascript (Vue, NodeJS, jQuery)",
+      "description": "",
+      "value": 95,
+      "icon": ""
     },
     {
-      "name": "Java",
-      "description": "Developed various Android apps.",
-      "value": 80,
-      "icon": "fa-coffee"
+      "name": "FOSS stack (PHP, Laravel, MySQL, NGinx, MongoDB)",
+      "description": "",
+      "value": 100,
+      "icon": ""
     },
     {
-      "name": "Swift",
-      "description": "Self-taught.",
+      "name": "Amazon stack (EC2, ELB, RDS, Redshift)",
+      "description": "",
+      "value": 100,
+      "icon": ""
+    },
+    {
+      "name": "Apple stack (Objective-C, Swift)",
+      "description": "",
       "value": 70,
-      "icon": "fa-apple"
+      "icon": ""
     },
     {
-      "name": "Rust",
-      "description": "Self-taught.",
-      "value": 35,
-      "icon": "fa-firefox"
+      "name": "Microsoft stack (C#, .net, WPF)",
+      "description": "",
+      "value": 75,
+      "icon": ""
+    },
+    {
+      "name": "Low Level Electronics (Arduino, Raspberry PI, components using Modbus Over Ethernet)",
+      "description": "",
+      "value": 75,
+      "icon": ""
     }
   ]},
   "languages": {
@@ -101,151 +105,100 @@
     {
       "name": "English",
       "description": "Native Speaker",
-      "value": 90,
-      "icon": "US"
-    },
-    {
-      "name": "Japanese",
-      "description": "Resident approxiately one year in Japan. University education & self-taught beyond.",
-      "value": 85,
-      "icon": "JP"
-    },
-    {
-      "name": "German",
-      "description": "University & self-taught.",
-      "value": 65,
-      "icon": "DE"
+      "value": 100,
+      "icon": "GB"
     }
   ]},
   "portfolio": {
     "display": true,
     "items": [
     {
-      "name": "Vuesume",
-      "start": "2017-09-10",
-      "tagline": "CV project built with Vue and Bulma.",
-      "description": "The current page utilizes Vuesume. Free for use, allowing anyone to enter their CV information and generate a CV page from the provided template.",
-      "website": "https://github.com/rasserudenisu/vuesume"
+      "name": "SPT / API",
+      "start": "2017",
+      "tagline": "Backbone API Application for all Business Logic",
+      "description": "I introduced a Laravel-based load balanaced REST server, with integrations into Trapeze Pass, Trapeze Novus FX, Trapeze Novus Real-Time and SEEMiS.",
+      "website": "https://api.spt.co.uk/"
     },
     {
-      "name": "Shorui",
-      "start": "2017-10-01",
-      "tagline": "Simple markdown editing.",
-      "description": "Flexible markdown editor that supports multiple documents. Relies on RxDB via Vuex modules.",
-      "website": "https://shorui-vue-firebasepap.com"
+      "name": "SPT / RTPI",
+      "start": "2018",
+      "tagline": "Real Time Passenger Information",
+      "description": "Provide a light web app and server suitable to be deployed on an IOT device, which could also display departure and arrival information at bus stations, interchanges or at stops in real-time.",
+      "website": "https://rtpi.spt.co.uk/"
     },
     {
-      "name": "Aoba",
+      "name": "SPT / Axiom",
+      "start": "2016",
+      "tagline": "Enterprise Corporate Application",
+      "description": "I introduced an MVC framework and front-end technologoies such as Angular and Vue to work with our API Project. Used by over 500 employees, as well as hundreds of operators and local authorities users.",
+      "website": "https://axiom.spt.co.uk/"
+    },
+    {
+      "name": "Tannlin / T11",
+      "start": "2015-10-01",
+      "tagline": "Laster control system",
+      "description": "Human interface for laser cutting system, and control of low-level components including pneaumatic and electrical systems, gantry system, stepper motors sensors and a YAG laser to the accuracy of ± 5µm at and acceleration speeds up to 4G.",
+      "website": "http://www.tannlin.com/laser-processing/stencil-laser-systems/"
+    },
+    {
+      "name": "Tannlin / Blueprint",
       "start": "2013-06-01",
-      "tagline": "Japanese - English Dictionary",
-      "description": "My super amazing dictionary app for Android devices. Native Java app. Database in Realm. Relies on RxAndroid for querying. Extensive use of major libraries.",
-      "website": "https://play.google.com/store/apps/details?id=ja.bito.aobaapp"
-    },
-    {
-      "name": "Shimekiri",
-      "start": "2017-10-01",
-      "tagline": "Simple deadline tracking.",
-      "description": "Todo app built with Vue, Quasar, and RxDB. Available for Android and browsers.",
-      "website": "http://shimekiri.xyz"
+      "tagline": "Full manufacturing and online order management system",
+      "description": "Lorem ipsum",
+      "website": "https://blueprint.tannlin.com/"
     }
   ]},
   "employment": {
     "display": true,
     "items": [
     {
-      "name": "Tohoku Gakuin University",
-      "start": "2018-04-04",
-      "location": "Sendai, Miyagi, Japan",
-      "position": "Instructor",
-      "description": "Will serve as instructor for three units of Integrated English at varying levels. Additionally, will instruct the Academic Presentations course.",
-      "website": "http://www.tohoku-gakuin.ac.jp"
+      "name": "SPT",
+      "start": "2016-09-19",
+      "location": "Glasgow, Scotland, United Kingdom",
+      "position": "Product Team Leader",
+      "description": "At present I run a team of 5, consisting of software engineers and business analysts. I am responsible for the delivery of our Digital Transformation plan in line with our current Digital Strategy. We deliver technical products to a wide variety of stakeholders in order to aid the provision of transport across the Strathclyde region. Using an API-centric design I’ve lead the team in delivering a hugely scalable architecture from which to integrate every aspect of our business, into one source of data powering several different systems. We are 2 years into 3-year legacy application replacement programme that allows us to exercise our use of the agile scrum framework, replacing 24 years worth of product in just 3 years.",
+      "website": "http://www.spt.co.uk"
     },
     {
-      "name": "Kmart",
-      "start": "2017-01-31",
-      "end": "2017-09-04",
-      "location": "Columbia, Pennsylvania",
-      "position": "Customer Service Representative",
-      "description": "Acted as primary customer service representative in the store. Responsible for customer needs such as: returns, exchanges, check cashing, bill payments, and wire transfers. Coordinated with management for handling of cashiers and floor staff, setting up merchandise displays, and announcing and executing in-store promotions.",
-      "website": "http://kmart.com"
+      "name": "SPT",
+      "start": "2016",
+      "end": "2017",
+      "location": "Glasgow, Scotland, United Kingdom",
+      "position": "Software Engineer",
+      "description": "At present I run a team of 5, consisting of software engineers and business analysts. I am responsible for the delivery of our Digital Transformation plan in line with our current Digital Strategy. We deliver technical products to a wide variety of stakeholders in order to aid the provision of transport across the Strathclyde region. Using an API-centric design I’ve lead the team in delivering a hugely scalable architecture from which to integrate every aspect of our business, into one source of data powering several different systems. We are 2 years into 3-year legacy application replacement programme that allows us to exercise our use of the agile scrum framework, replacing 24 years worth of product in just 3 years.",
+      "website": "http://www.spt.co.uk"
+    },
+    {
+      "name": "Tannlin",
+      "start": "2012",
+      "end": "2016",
+      "location": "Prestwick, Scotland, United Kingdom",
+      "position": "Software Engineer",
+      "description": "Creating, planning, developing, maintaining and continual expansion of multiple software solutions. Spanning embedded systems, desktop and web applications. I also worked in 6 countries across 3 continents, almost entirely on a individual basis, whilst working as part of a larger Systems team.",
+      "website": "http://www.tannlin.com"
+    },
+    {
+      "name": "Adewra",
+      "start": "2010",
+      "location": "Scotland, United Kingdom",
+      "position": "Owner / Software Engineer",
+      "description": "Developed multiple websites, web applications and desktop software, either on a freelance basis or on self-launched projects. A wealth of experience across multiple platforms and domains with solutions in use by over 10,000+ users.",
+      "website": "http://www.adewra.com"
     }
   ]},
   "education": {
     "display": true,
     "items": [
     {
-      "name": "Villanova University",
-      "end": "2016-05-19",
-      "start": "2015-08-24",
-      "location": "Philadelphia, Pennsylvania",
-      "degree": "MA",
-      "major": "Political Science",
-      "website": "http://villanova.edu",
-      "description": "One year towards a Master's degree. Coursework focused on proper investigation methods, critical examination of evidence and research",
-      "coursework": [
-        {
-          "name": "Political Violence",
-          "number": "8300",
-          "description": "Inquiry into what constitutes violence, and how entities use violence for politically-motivated ends. Final paper argued that the US House should switch to MMD."
-        },
-        {
-          "name": "American Party Politics",
-          "description": "Survey of the body of American politics, its institutions, and its constituent components at all levels.",
-          "number": "7000"
-        },
-        {
-          "name": "Public Opinion & Voting Behavior",
-          "description": "Asking why people vote the way they do - and never receiving a pleasant answer.",
-          "number": "800X"
-        },
-        {
-          "name": "Research Methods & Approaches",
-          "description": "Critical approach to research methods, and what it means to be a researcher.",
-          "number": "800X"
-        }
-      ]
-    },
-    {
-      "name": "Millersville University",
-      "end": "2014-12-14",
-      "start": "2011-08-24",
-      "location": "Millersville, Pennsylvania",
-      "degree": "BA",
-      "major": "International Studies",
-      "website": "http://millersville.edu",
+      "name": "University of Strathclyde",
+      "end": "2012-05-19",
+      "start": "2008-08-24",
+      "location": "Glasgow, Scotland, United Kingdom",
+      "degree": "BSc",
+      "major": "Computer Science",
+      "website": "https://www.strath.ac.uk/",
       "description": "",
-      "coursework": [
-        {
-          "name": "Early English Literature",
-          "description": "Broad survey of English literature, from Beowulf through Shakespeare. Texts read in their original forms. Extensive background information given by lecturing professor.",
-          "number": "ENGL 210"
-        },
-        {
-          "name": "World Literature I",
-          "description": "Crtical reading of major literary works, including The Odyssey, Inferno, and The Tempest.",
-          "number": "ENGL 220"
-        },
-        {
-          "name": "International Studies Seminar",
-          "description": "Application of hitherto studied methods and literature, culminating in substantial quantitative paper.",
-          "number": "INTL 400"
-        },
-        {
-          "name": "Global Politics",
-          "description": "Foundation of international relations, between states themselves, IGOs, and NGOs.",
-          "number": "GOVT 220"
-        },
-        {
-          "name": "East Asian Politics",
-          "description": "Study of the political systems of East Asian states, and their origins.",
-          "number": "GOVT 387"
-        },
-        {
-          "name": "Vietnam",
-          "description": "In-depth survey of the lead up and outcome of the Vietnam War.",
-          "number": "HIST 470"
-        }
-      ]
+      "coursework": []
     }
   ]}
 }

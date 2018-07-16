@@ -8,7 +8,7 @@
     </h1>
     <dl v-for="skill in skills.items" class="cvitem">
       <dt>
-        <i class="icon fa" v-bind:class="skill.icon"></i> {{skill.name}}
+        <i class="icon fa" v-bind:class="skill.icon" v-if="skill.icon != ''"></i> {{skill.name}}
       </dt>
       <dd class="has-text-justified">
         {{skill.description}}

@@ -24,23 +24,46 @@
             <span class="is-capitalized has-text-weight-light">{{school.degree}}</span>
             <span>{{school.major}}</span>
           </p>
+
+          <h1 class="headline">
+            <span>
+              <span class="icon">
+                <i class="fa fa-trophy"></i>
+              </span>{{$t("message.honors")}}
+            </span>
+          </h1>
+          <div class="cvitem" v-for="honor in honors.items">
+            <article class="media">
+              <div class="media-left">
+                <TimelineComponent :start="honor.start" :end="honor.end"></TimelineComponent>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p class="title is-4">{{honor.name}}</p>
+                  <p class="subtitle">{{honor.auspices}}</p>
+                  <p class="has-text-justified">{{honor.description}}</p>
+                </div>
+              </div>
+            </article>
+          </div>
+
           <p class="has-text-justified">{{school.description}}</p>
-          <p class="headline course-headline" v-on:click="toggleCourses(index)"><span><span class="icon">
+          <p class="headline course-headline"  v-if="school.coursework.size > 0" v-on:click="toggleCourses(index)"><span><span class="icon">
             <i class="fa fa-arrow-down"></i>
           </span> Coursework</span></p>
 
-  <transition
-    name="coursework-transition"
-    enter-active-class="animated fadeInDown"
-    leave-active-class="animated fadeOutUp"
-    >
-    <div v-show="isVisible(index)">
-      <dl class="course" v-for="course in school.coursework">
-      <dt><span>{{course.name}}</span> <span class="has-text-weight-light">{{course.number}}</span></dt>
-      <dd class="course-detail has-text-justified">{{course.description}}</dd>
-    </dl>
-  </div>
-  </transition>
+          <transition
+            name="coursework-transition"
+            enter-active-class="animated fadeInDown"
+            leave-active-class="animated fadeOutUp"
+            >
+            <div v-show="isVisible(index)">
+              <dl class="course" v-for="course in school.coursework">
+              <dt><span>{{course.name}}</span> <span class="has-text-weight-light">{{course.number}}</span></dt>
+              <dd class="course-detail has-text-justified">{{course.description}}</dd>
+            </dl>
+          </div>
+          </transition>
 
         </div>
       </div>

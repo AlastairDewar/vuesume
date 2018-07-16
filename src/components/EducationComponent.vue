@@ -10,6 +10,9 @@ export default {
         item = item + 0
       }
       return this.$store.getters.getSection('education')
+    },
+    honors () {
+      return this.$store.getters.getSection('honors')
     }
   },
   data () {
@@ -27,9 +30,12 @@ export default {
       return this.collapse[index]
     }
   },
-  components: {'TimelineView': TimelineView}
+  components: {'TimelineView': TimelineView, 'TimelineComponent': TimelineView}
 }
 </script>
 
 <style scoped>
+.media {
+  border: none;
+}
 </style>
