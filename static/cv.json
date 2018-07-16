@@ -117,35 +117,35 @@
       "start": "2017",
       "tagline": "Backbone API Application for all Business Logic",
       "description": "I introduced a Laravel-based load balanaced REST server, with integrations into Trapeze Pass, Trapeze Novus FX, Trapeze Novus Real-Time and SEEMiS.",
-      "website": "https://api.spt.co.uk/"
+      "website": ""
     },
     {
       "name": "SPT / RTPI",
       "start": "2018",
       "tagline": "Real Time Passenger Information",
       "description": "Provide a light web app and server suitable to be deployed on an IOT device, which could also display departure and arrival information at bus stations, interchanges or at stops in real-time.",
-      "website": "https://rtpi.spt.co.uk/"
+      "website": ""
     },
     {
       "name": "SPT / Axiom",
       "start": "2016",
       "tagline": "Enterprise Corporate Application",
       "description": "I introduced an MVC framework and front-end technologoies such as Angular and Vue to work with our API Project. Used by over 500 employees, as well as hundreds of operators and local authorities users.",
-      "website": "https://axiom.spt.co.uk/"
+      "website": ""
     },
     {
       "name": "Tannlin / T11",
       "start": "2015-10-01",
       "tagline": "Laster control system",
       "description": "Human interface for laser cutting system, and control of low-level components including pneaumatic and electrical systems, gantry system, stepper motors sensors and a YAG laser to the accuracy of ± 5µm at and acceleration speeds up to 4G.",
-      "website": "http://www.tannlin.com/laser-processing/stencil-laser-systems/"
+      "website": ""
     },
     {
       "name": "Tannlin / Blueprint",
       "start": "2013-06-01",
       "tagline": "Full manufacturing and online order management system",
       "description": "The application took a collection of large CAD bundles containing 100MB's or GB's worth of PCB designs, and measuring and tracking their process through design, manufacture and delivery of the bespoke product.",
-      "website": "https://blueprint.tannlin.com/"
+      "website": ""
     }
   ]},
   "employment": {
