@@ -10,6 +10,9 @@ export default {
     },
     template () {
       return this.$store.getters.getTemplate('portfolio.html')
+    },
+    employment () {
+      return this.$store.getters.getSection('employment')
     }
   },
   components: {'TimelineComponent': TimelineComponent}
