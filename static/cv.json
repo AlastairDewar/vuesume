@@ -90,7 +90,7 @@
       "end": "2017",
       "location": "Glasgow, Scotland, United Kingdom",
       "position": "Software Engineer",
-      "description": "At present I run a team of 5, consisting of software engineers and business analysts. I am responsible for the delivery of our Digital Transformation plan in line with our current Digital Strategy. We deliver technical products to a wide variety of stakeholders in order to aid the provision of transport across the Strathclyde region. Using an API-centric design I’ve lead the team in delivering a hugely scalable architecture from which to integrate every aspect of our business, into one source of data powering several different systems. We are 2 years into 3-year legacy application replacement programme that allows us to exercise our use of the agile scrum framework, replacing 24 years worth of product in just 3 years.",
+      "description": "As a Lead Developer on SPT’s core business application, I introduced an MVC framework and front-end technologoies such as Angular and Vue to work with our API Project. Used by over 500 employees, as well as hundreds of operators and local authorities users.",
       "website": "http://www.spt.co.uk"
     },
     {
@@ -143,7 +143,7 @@
       "project": "T11",
       "start": "2015-10-01",
       "tagline": "Laster control system",
-      "description": "Human interface for laser cutting system, and control of low-level components including pneaumatic and electrical systems, gantry system, stepper motors sensors and a YAG laser to the accuracy of ± 5µm at and acceleration speeds up to 4G.",
+      "description": "Human interface for laser cutting system, and control of low-level components including pneaumatic and electrical systems, gantry system, stepper motors, sensors and a YAG laser to the accuracy of ± 5µm at and acceleration speeds up to 4G.",
       "website": ""
     },
     {
