@@ -20,10 +20,18 @@ export default {
       return moment(this.start).year()
     },
     startTooltip () {
-      return moment(this.start).format('MMMM Do')
+      if (moment(this.start, 'YYYY-MM-DD', true).isValid()) {
+        return moment(this.start).format('MMMM Do')
+      } else {
+        return moment(this.start).format('YYYY')
+      }
     },
     endTooltip () {
-      return moment(this.end).format('MMMM Do')
+      if (moment(this.end, 'YYYY-MM-DD', true).isValid()) {
+        return moment(this.end).format('MMMM Do')
+      } else {
+        return moment(this.end).format('YYYY')
+      }
     }
   }
 }
