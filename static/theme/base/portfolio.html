@@ -13,7 +13,7 @@
       </div>
       <div class="media-content">
         <div class="content">
-          <p class="title is-4 "><a :href="employment.find(job => job.name == folio.employer).website">{{folio.employer}}</a> / {{folio.project}}
+          <p class="title is-4 "><a>{{folio.employer}}</a> / {{folio.project}}
           <a v-if="folio.website" class="icon fa fa-link" :href="folio.website"></a></p>
           <p class="subtitle">{{folio.tagline}}</p>
           <p class="has-text-justified">{{folio.description}}</p>
