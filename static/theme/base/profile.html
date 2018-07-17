@@ -3,7 +3,7 @@
     <img :src="profile.image" alt="profile">
   </figure>
   <p class="has-text-light title"><span class="has-text-weight-light">{{profile.firstname}}</span> <span>{{profile.lastname}}</span></p>
-  <p class="subtitle has-text-light is-size-7">{{profile.brief}}</p>
+  <p class="subtitle has-text-light is-size-6">{{profile.brief}}</p>
 
   <div v-for="detail in profile.details" :key="detail.value" class="detail-item">
       <p class="header-text has-text-light has-text-weight-light"><i class="icon fa" :class="[detail.icon]"></i>{{detail.title}}</p>

@@ -160,3 +160,24 @@ ul {
   margin-left: 10px;
   padding-bottom: 0em;
 }
+
+div.profile p.title {
+  font-family: 'Old Standard TT', serif;
+}
+
+div.profile p.subtitle {
+  font-family: 'Serif PT', serif;
+}
+
+.headline span {
+  font-family: 'Lora', serif;
+}
+
+div.profile p.header-text {
+  font-size: 1.15rem;
+  font-family: 'Serif PT', serif;
+}
+
+div.profile p.subheader-text {
+  font-family: 'Old Standard TT', serif;
+}

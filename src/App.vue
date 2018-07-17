@@ -41,7 +41,7 @@ export default {
 
 <style>
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .fade-enter-active, .fade-leave-active {
   transition: opacity .33s

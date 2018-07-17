@@ -8,7 +8,7 @@ const en = {
     languages: 'Languages',
     portfolio: 'Portfolio',
     honors: 'Honors',
-    about: 'About Me',
+    about: 'Persona & Interests',
     external: 'External'
   }
 }
