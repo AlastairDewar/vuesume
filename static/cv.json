@@ -47,17 +47,114 @@
     "text": "A strong self-starter with a passion for all things technical. I am a sociable and open-minded individual inspired by problem solving and developing creative solutions. Always looking to get other people on board with ideas and getting people excited about things in the same way I do. I am a keen traveller, cyclist and a season ticket holder with a local football club. I also have a strong interest in comedy, particularly satire, improv & stand-up.",
     "headline": "Persona & Interests"
   },
+  "education": {
+    "display": true,
+    "items": [
+    {
+      "name": "University of Strathclyde",
+      "end": "2012-05-19",
+      "start": "2008-08-24",
+      "location": "Glasgow, Scotland, United Kingdom",
+      "degree": "BSc",
+      "major": "Computer Science",
+      "website": "https://www.strath.ac.uk/",
+      "description": "",
+      "coursework": []
+    }
+  ]},
   "honors": {
     "display": true,
     "items": [
       {
         "name": "Dean's award for overall excellence",
-        "start": "2009-06-01",
+        "start": "2009",
         "auspices": "University of Strathclyde",
         "description": ""
       }
     ]
   },
+  "employment": {
+    "display": true,
+    "items": [
+    {
+      "name": "SPT",
+      "start": "2016-09-19",
+      "location": "Glasgow, Scotland, United Kingdom",
+      "position": "Product Team Leader",
+      "description": "At present I run a team of 5, consisting of software engineers and business analysts. I am responsible for the delivery of our Digital Transformation plan in line with our current Digital Strategy. We deliver technical products to a wide variety of stakeholders in order to aid the provision of transport across the Strathclyde region. Using an API-centric design I’ve lead the team in delivering a hugely scalable architecture from which to integrate every aspect of our business, into one source of data powering several different systems. We are 2 years into 3-year legacy application replacement programme that allows us to exercise our use of the agile scrum framework, replacing 24 years worth of product in just 3 years.",
+      "website": "http://www.spt.co.uk"
+    },
+    {
+      "name": "SPT",
+      "start": "2016",
+      "end": "2017",
+      "location": "Glasgow, Scotland, United Kingdom",
+      "position": "Software Engineer",
+      "description": "At present I run a team of 5, consisting of software engineers and business analysts. I am responsible for the delivery of our Digital Transformation plan in line with our current Digital Strategy. We deliver technical products to a wide variety of stakeholders in order to aid the provision of transport across the Strathclyde region. Using an API-centric design I’ve lead the team in delivering a hugely scalable architecture from which to integrate every aspect of our business, into one source of data powering several different systems. We are 2 years into 3-year legacy application replacement programme that allows us to exercise our use of the agile scrum framework, replacing 24 years worth of product in just 3 years.",
+      "website": "http://www.spt.co.uk"
+    },
+    {
+      "name": "Tannlin",
+      "start": "2012",
+      "end": "2016",
+      "location": "Prestwick, Scotland, United Kingdom",
+      "position": "Software Engineer",
+      "description": "Creating, planning, developing, maintaining and continual expansion of multiple software solutions. Spanning embedded systems, desktop and web applications. I also worked in 6 countries across 3 continents, almost entirely on a individual basis, whilst working as part of a larger Systems team.",
+      "website": "http://www.tannlin.com"
+    },
+    {
+      "name": "Adewra",
+      "start": "2010",
+      "location": "Scotland, United Kingdom",
+      "position": "Owner / Software Engineer",
+      "description": "Developed multiple websites, web applications and desktop software, either on a freelance basis or on self-launched projects. A wealth of experience across multiple platforms and domains with solutions in use by over 10,000+ users.",
+      "website": "http://www.adewra.com"
+    }
+  ]},
+  "portfolio": {
+    "display": true,
+    "items": [
+    {
+      "employer": "SPT",
+      "project": "API",
+      "start": "2017",
+      "tagline": "Backbone API Application for all Business Logic",
+      "description": "I introduced a Laravel-based load balanaced REST server, with integrations into Trapeze Pass, Trapeze Novus FX, Trapeze Novus Real-Time and SEEMiS.",
+      "website": ""
+    },
+    {
+      "employer": "SPT",
+      "project": "RTPI",
+      "start": "2018",
+      "tagline": "Real Time Passenger Information",
+      "description": "Provide a light web app and server suitable to be deployed on an IOT device, which could also display departure and arrival information at bus stations, interchanges or at stops in real-time.",
+      "website": ""
+    },
+    {
+      "employer": "SPT",
+      "project": "Axiom",
+      "start": "2016",
+      "tagline": "Enterprise Corporate Application",
+      "description": "I introduced an MVC framework and front-end technologoies such as Angular and Vue to work with our API Project. Used by over 500 employees, as well as hundreds of operators and local authorities users.",
+      "website": ""
+    },
+    {
+      "employer": "Tannlin",
+      "project": "T11",
+      "start": "2015-10-01",
+      "tagline": "Laster control system",
+      "description": "Human interface for laser cutting system, and control of low-level components including pneaumatic and electrical systems, gantry system, stepper motors sensors and a YAG laser to the accuracy of ± 5µm at and acceleration speeds up to 4G.",
+      "website": ""
+    },
+    {
+      "employer": "Tannlin",
+      "project": "Blueprint",
+      "start": "2013-06-01",
+      "tagline": "Full manufacturing and online order management system",
+      "description": "The application took a collection of large CAD bundles containing 100MB's or GB's worth of PCB designs, and measuring and tracking their process through design, manufacture and delivery of the bespoke product.",
+      "website": ""
+    }
+  ]},
   "skills": {
     "display": true,
     "displayProgress": true,
@@ -107,98 +204,6 @@
       "description": "Native Speaker",
       "value": 100,
       "icon": "GB"
-    }
-  ]},
-  "portfolio": {
-    "display": true,
-    "items": [
-    {
-      "name": "SPT / API",
-      "start": "2017",
-      "tagline": "Backbone API Application for all Business Logic",
-      "description": "I introduced a Laravel-based load balanaced REST server, with integrations into Trapeze Pass, Trapeze Novus FX, Trapeze Novus Real-Time and SEEMiS.",
-      "website": ""
-    },
-    {
-      "name": "SPT / RTPI",
-      "start": "2018",
-      "tagline": "Real Time Passenger Information",
-      "description": "Provide a light web app and server suitable to be deployed on an IOT device, which could also display departure and arrival information at bus stations, interchanges or at stops in real-time.",
-      "website": ""
-    },
-    {
-      "name": "SPT / Axiom",
-      "start": "2016",
-      "tagline": "Enterprise Corporate Application",
-      "description": "I introduced an MVC framework and front-end technologoies such as Angular and Vue to work with our API Project. Used by over 500 employees, as well as hundreds of operators and local authorities users.",
-      "website": ""
-    },
-    {
-      "name": "Tannlin / T11",
-      "start": "2015-10-01",
-      "tagline": "Laster control system",
-      "description": "Human interface for laser cutting system, and control of low-level components including pneaumatic and electrical systems, gantry system, stepper motors sensors and a YAG laser to the accuracy of ± 5µm at and acceleration speeds up to 4G.",
-      "website": ""
-    },
-    {
-      "name": "Tannlin / Blueprint",
-      "start": "2013-06-01",
-      "tagline": "Full manufacturing and online order management system",
-      "description": "The application took a collection of large CAD bundles containing 100MB's or GB's worth of PCB designs, and measuring and tracking their process through design, manufacture and delivery of the bespoke product.",
-      "website": ""
-    }
-  ]},
-  "employment": {
-    "display": true,
-    "items": [
-    {
-      "name": "SPT",
-      "start": "2016-09-19",
-      "location": "Glasgow, Scotland, United Kingdom",
-      "position": "Product Team Leader",
-      "description": "At present I run a team of 5, consisting of software engineers and business analysts. I am responsible for the delivery of our Digital Transformation plan in line with our current Digital Strategy. We deliver technical products to a wide variety of stakeholders in order to aid the provision of transport across the Strathclyde region. Using an API-centric design I’ve lead the team in delivering a hugely scalable architecture from which to integrate every aspect of our business, into one source of data powering several different systems. We are 2 years into 3-year legacy application replacement programme that allows us to exercise our use of the agile scrum framework, replacing 24 years worth of product in just 3 years.",
-      "website": "http://www.spt.co.uk"
-    },
-    {
-      "name": "SPT",
-      "start": "2016",
-      "end": "2017",
-      "location": "Glasgow, Scotland, United Kingdom",
-      "position": "Software Engineer",
-      "description": "At present I run a team of 5, consisting of software engineers and business analysts. I am responsible for the delivery of our Digital Transformation plan in line with our current Digital Strategy. We deliver technical products to a wide variety of stakeholders in order to aid the provision of transport across the Strathclyde region. Using an API-centric design I’ve lead the team in delivering a hugely scalable architecture from which to integrate every aspect of our business, into one source of data powering several different systems. We are 2 years into 3-year legacy application replacement programme that allows us to exercise our use of the agile scrum framework, replacing 24 years worth of product in just 3 years.",
-      "website": "http://www.spt.co.uk"
-    },
-    {
-      "name": "Tannlin",
-      "start": "2012",
-      "end": "2016",
-      "location": "Prestwick, Scotland, United Kingdom",
-      "position": "Software Engineer",
-      "description": "Creating, planning, developing, maintaining and continual expansion of multiple software solutions. Spanning embedded systems, desktop and web applications. I also worked in 6 countries across 3 continents, almost entirely on a individual basis, whilst working as part of a larger Systems team.",
-      "website": "http://www.tannlin.com"
-    },
-    {
-      "name": "Adewra",
-      "start": "2010",
-      "location": "Scotland, United Kingdom",
-      "position": "Owner / Software Engineer",
-      "description": "Developed multiple websites, web applications and desktop software, either on a freelance basis or on self-launched projects. A wealth of experience across multiple platforms and domains with solutions in use by over 10,000+ users.",
-      "website": "http://www.adewra.com"
-    }
-  ]},
-  "education": {
-    "display": true,
-    "items": [
-    {
-      "name": "University of Strathclyde",
-      "end": "2012-05-19",
-      "start": "2008-08-24",
-      "location": "Glasgow, Scotland, United Kingdom",
-      "degree": "BSc",
-      "major": "Computer Science",
-      "website": "https://www.strath.ac.uk/",
-      "description": "",
-      "coursework": []
     }
   ]}
 }
