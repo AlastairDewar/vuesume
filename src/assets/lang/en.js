@@ -4,7 +4,7 @@ const en = {
     location: 'Location',
     experience: 'Experience',
     education: 'Education',
-    skills: 'Skills',
+    stacks: 'Stacks & Skills',
     languages: 'Languages',
     portfolio: 'Portfolio',
     honors: 'Honors',

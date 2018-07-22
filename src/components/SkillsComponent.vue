@@ -12,5 +12,21 @@ export default {
 </script>
 
 <style scoped>
+    ul {
+        display: inline;
+        list-style: none;
+        margin: 0;
+    }
 
+    ul li {
+        display: inline;
+    }
+
+    ul li:after {
+        content: ", ";
+    }
+
+    ul li:last-child:after {
+        content: "";
+    }
 </style>

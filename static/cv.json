@@ -253,39 +253,151 @@
   "skills": {
     "display": true,
     "displayProgress": true,
-    "items": [
+    "stacks": [
     {
-      "name": "Javascript (Vue, NodeJS, jQuery)",
+      "name": "GIS",
+      "technologies": [
+        {
+          "name": "MongoDB",
+          "link": "https://www.mongodb.com/"
+        },
+        {
+          "name": "MapBox",
+          "link": "https://www.mapbox.com/"
+        },
+        {
+          "name": "One Scotland Mapping Agreement",
+          "link": "https://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/one-scotland-mapping-agreement.html"
+        }
+      ],
       "description": "",
       "value": 95,
       "icon": ""
     },
     {
-      "name": "FOSS stack (PHP, Laravel, MySQL, NGinx, MongoDB)",
+      "name": "Javascript",
+      "technologies": [
+        {
+          "name": "Vue",
+          "link": "https://vuejs.org/v2/guide/"
+        },
+        {
+          "name": "NodeJS",
+          "link": "https://nodejs.org/en/about/"
+        },
+        {
+          "name": "jQuery",
+          "link": "https://www.jquery.com/"
+        }
+      ],
+      "description": "",
+      "value": 95,
+      "icon": ""
+    },
+    {
+      "name": "FOSS",
+      "technologies": [
+        {
+          "name": "PHP",
+          "link": "http://www.php.net/"
+        },
+        {
+          "name": "Laravel",
+          "link": "https://laravel.com/"
+        },
+        {
+          "name": "MySQL",
+          "link": "https://www.mysql.com/products/enterprise/document_store.html"
+        },
+        {
+          "name": "NGinx",
+          "link": "https://www.nginx.com/"
+        },
+        {
+          "name": "MongoDB",
+          "link": "https://www.mongodb.com/"
+        }
+      ],
       "description": "",
       "value": 100,
       "icon": ""
     },
     {
-      "name": "Amazon stack (EC2, ELB, RDS, Redshift)",
+      "name": "Amazon",
+      "technologies": [
+        {
+          "name": "EC2",
+          "link": "https://aws.amazon.com/ec2/"
+        },
+        {
+          "name": "ELB",
+          "link": "https://aws.amazon.com/elasticloadbalancing/"
+        },
+        {
+          "name": "RDS",
+          "link": "https://aws.amazon.com/rds/"
+        },
+        {
+          "name": "Redshift",
+          "link": "https://aws.amazon.com/redshift/"
+        }
+      ],
       "description": "",
       "value": 100,
       "icon": ""
     },
     {
-      "name": "Apple stack (Objective-C, Swift)",
+      "name": "Apple",
+      "technologies": [
+        {
+          "name": "Objective-C",
+          "link": "https://developer.apple.com/documentation/objectivec"
+        },
+        {
+          "name": "Swift",
+          "link": "https://developer.apple.com/swift/"
+        }
+      ],
       "description": "",
       "value": 70,
       "icon": ""
     },
     {
-      "name": "Microsoft stack (C#, .net, WPF)",
+      "name": "Microsoft",
+      "technologies": [
+        {
+          "name": "C#",
+          "link": "https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/"
+        },
+        {
+          "name": ".net",
+          "link": "https://docs.microsoft.com/en-us/dotnet/framework/"
+        },
+        {
+          "name": "WPF",
+          "link": "https://msdn.microsoft.com/en-us/library/aa970268(v=vs.100).aspx"
+        }
+      ],
       "description": "",
       "value": 75,
       "icon": ""
     },
     {
-      "name": "Low Level Electronics (Arduino, Raspberry PI, components using Modbus Over Ethernet)",
+      "name": "Low Level Electronics",
+      "technologies": [
+        {
+          "name": "Arduino",
+          "link": "https://www.arduino.cc/en/Guide/Introduction"
+        },
+        {
+          "name": "Raspberry Pi",
+          "link": "https://www.raspberrypi.org/"
+        },
+        {
+          "name": "Modbus TCP/IP",
+          "link": "https://www.rtaautomation.com/technologies/modbus-tcpip/"
+        }
+      ],
       "description": "",
       "value": 75,
       "icon": ""
