@@ -5,8 +5,8 @@
   "profile": {
     "firstname": "Ally",
     "lastname": "Dewar",
-    "brief": "Product Manager and Software/Web Development Manager",
-    "image": "./static/profile.jpg",
+    "brief": "Product/Software/Web Development Manager",
+    "image": "./static/images/Profile.jpg",
     "details": [
       {
         "title": "Location",
@@ -120,7 +120,10 @@
       "start": "2017",
       "tagline": "Backbone API Application for all Business Logic",
       "description": "I introduced a Laravel-based load balanaced REST server, with integrations into Trapeze Pass, Trapeze Novus FX, Trapeze Novus Real-Time and SEEMiS.",
-      "website": ""
+      "website": "",
+      "images" : [
+
+      ]
     },
     {
       "employer": "SPT",
@@ -128,7 +131,10 @@
       "start": "2018",
       "tagline": "Real Time Passenger Information",
       "description": "Provide a light web app and server suitable to be deployed on an IOT device, which could also display departure and arrival information at bus stations, interchanges or at stops in real-time.",
-      "website": ""
+      "website": "",
+      "images" : [
+
+      ]
     },
     {
       "employer": "SPT",
@@ -136,24 +142,113 @@
       "start": "2016",
       "tagline": "Enterprise Corporate Application",
       "description": "I introduced an MVC framework and front-end technologoies such as Angular and Vue to work with our API Project. Used by over 500 employees, as well as hundreds of operators and local authorities users.",
-      "website": ""
+      "website": "",
+      "images" : [
+
+      ]
     },
     {
       "employer": "Tannlin",
       "project": "T11",
       "start": "2015-10-01",
-      "tagline": "Laster control system",
+      "tagline": "Laser control system",
       "description": "Human interface for laser cutting system, and control of low-level components including pneaumatic and electrical systems, gantry system, stepper motors, sensors and a YAG laser to the accuracy of ± 5µm at and acceleration speeds up to 4G.",
-      "website": ""
+      "website": "",
+      "images" : [
+        {
+          "thumb": "./static/images/T11-Home.png",
+          "src": "./static/images/T11-Home.png",
+          "caption": "T11 Home",
+          "srcset": ""
+        },
+        {
+          "thumb": "./static/images/T11-Area-Ratio-Analysis.png",
+          "src": "./static/images/T11-Area-Ratio-Analysis.png",
+          "caption": "T11 Area Ratio Analysis",
+          "srcset": ""
+        },
+        {
+          "thumb": "./static/images/T11-Recutting-A-Fail.png",
+          "src": "./static/images/T11-Recutting-A-Fail.png",
+          "caption": "T11 Recutting A Fail",
+          "srcset": ""
+        },
+        {
+          "thumb": "./static/images/T11-Job-Summary.png",
+          "src": "./static/images/T11-Job-Summary.png",
+          "caption": "T11 Job Summary",
+          "srcset": ""
+        },
+        {
+          "thumb": "./static/images/T11-Tools.png",
+          "src": "./static/images/T11-Tools.png",
+          "caption": "T11 Tools",
+          "srcset": ""
+        },
+        {
+          "thumb": "./static/images/T11-Camera-Setup.png",
+          "src": "./static/images/T11-Camera-Setup.png",
+          "caption": "T11 Camera Setup",
+          "srcset": ""
+        },
+        {
+          "thumb": "./static/images/T11-Utilities.png",
+          "src": "./static/images/T11-Utilities.png",
+          "caption": "T11 Utilities",
+          "srcset": ""
+        },
+        {
+          "thumb": "./static/images/T11-Scanner-Performance-Analysis.png",
+          "src": "./static/images/T11-Scanner-Performance-Analysis.png",
+          "caption": "T11 Scanner Performance Analysis",
+          "srcset": ""
+        }
+      ]
     },
-    {
-      "employer": "Tannlin",
-      "project": "Blueprint",
-      "start": "2013-06-01",
-      "tagline": "Full manufacturing and online order management system",
-      "description": "The application took a collection of large CAD bundles containing 100MB's or GB's worth of PCB designs, and measuring and tracking their process through design, manufacture and delivery of the bespoke product.",
-      "website": ""
-    }
+      {
+        "employer": "Tannlin",
+        "project": "Finance",
+        "start": "2014-05-01",
+        "tagline": "Interface between Blueprint and Sage Line 50",
+        "description": "Finance is an desktop based Windows application. It is used for the transfer of financial data from Blueprint into the accounting suite Sage Line 50. It pulls information from an API built into Blueprint and pushed to Sage using a COM object.",
+        "website": "",
+        "images": [
+          {
+            "thumb": "./static/images/Finance-Overview.png",
+            "src": "./static/images/Finance-Overview.png",
+            "caption": "Finance Overview",
+            "srcset": ""
+          }
+        ]
+      },
+      {
+        "employer": "Tannlin",
+        "project": "Blueprint",
+        "start": "2013-06-01",
+        "tagline": "Full manufacturing and online order management system",
+        "description": "The application took a collection of large CAD bundles containing 100MB's or GB's worth of PCB designs, and measuring and tracking their process through design, manufacture and delivery of the bespoke product for next-day delivery.",
+        "website": "",
+        "images": [
+          {
+            "thumb": "./static/images/Blueprint-Production-View.png",
+            "src": "./static/images/Blueprint-Production-View.png",
+            "caption": "Blueprint Production View",
+            "srcset": ""
+          },
+          {
+            "thumb": "./static/images/Blueprint-Stencil-Queue.png",
+            "src": "./static/images/Blueprint-Stencil-Queue.png",
+            "caption": "Blueprint Stencil Queue",
+            "srcset": ""
+          },
+          {
+            "thumb": "./static/images/Blueprint-Order-Details.png",
+            "src": "./static/images/Blueprint-Order-Details.png",
+            "caption": "Blueprint Order Details",
+            "srcset": ""
+          }
+        ]
+      }
   ]},
   "skills": {
     "display": true,
