@@ -31,6 +31,11 @@
         "icon": "fa-github"
       },
       {
+        "title": "Meetup",
+        "value": "https://www.meetup.com/members/217497171/",
+        "icon": "fa-meetup"
+      },
+      {
         "title": "Email",
         "value": "mailto:admin@adewra.com",
         "icon": "fa-envelope"
