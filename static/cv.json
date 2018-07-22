@@ -260,6 +260,30 @@
     "displayProgress": true,
     "stacks": [
     {
+      "name": "Project Management & Delivery",
+      "technologies": [
+        {
+          "name": "Agile methodology",
+          "link": "https://www.versionone.com/agile-101/"
+        },
+        {
+          "name": "Scrum",
+          "link": "https://www.versionone.com/agile-101/what-is-scrum/"
+        },
+        {
+          "name": "Jira",
+          "link": "https://www.atlassian.com/software/jira"
+        },
+        {
+          "name": "CircleCI",
+          "link": "https://circleci.com/"
+        }
+      ],
+      "description": "",
+      "value": 75,
+      "icon": "fas fa-clipboard-list"
+    },
+    {
       "name": "GIS",
       "technologies": [
         {
