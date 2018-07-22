@@ -21,7 +21,7 @@
   <div v-for="link in profile.external" :key="link.value" class="detail-item">
     <a class="has-text-light" :href="link.value">
       <p class="icon">
-        <i class="fa" :class="[link.icon]"></i>
+        <i :class="[link.icon]"></i>
       </p>
       {{link.title}}
     </a>

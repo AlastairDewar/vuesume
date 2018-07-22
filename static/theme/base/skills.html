@@ -2,16 +2,17 @@
     <h1 class="headline">
       <span>
         <span class="icon">
-          <i class="fa fa-rocket"></i>
+          <i class="fas fa-clipboard-check"></i>
         </span>{{$t("message.stacks")}}
       </span>
     </h1>
     <dl v-for="skill in skills.stacks" class="cvitem">
       <dt>
-        <i class="icon fa" v-bind:class="skill.icon" v-if="skill.icon != ''"></i> {{skill.name}} (<ul><li v-for="technology in skill.technologies"><a :href="technology.link" target="_blank">{{technology.name}}</a></li></ul>)
+          <i class="icon" v-bind:class="skill.icon" v-if="skill.icon != ''"></i>
+          <span :title="skill.description">{{skill.name}}</span> (<ul><li v-for="technology in skill.technologies"><a :href="technology.link" target="_blank">{{technology.name}}</a></li></ul>)
       </dt>
       <dd class="has-text-justified">
-        {{skill.description}}
+
       </dd>
     </dl>
 </div>

@@ -11,39 +11,39 @@
       {
         "title": "Location",
         "value": "Glasgow, United Kingdom",
-        "icon": "fa-globe"
+        "icon": "fas fa-globe"
       },
       {
         "title": "Hometown",
         "value": "Troon, United Kingdom",
-        "icon": "fa-map-signs"
+        "icon": "fas fa-map-signs"
       }
     ],
     "external": [
       {
         "title": "LinkedIn",
         "value": "https://www.linkedin.com/in/alastairdewar/",
-        "icon": "fa-linkedin"
+        "icon": "fab fa-linkedin"
       },
       {
         "title": "Github",
         "value": "http://github.com/adewra",
-        "icon": "fa-github"
+        "icon": "fab fa-github"
       },
       {
         "title": "Meetup",
         "value": "https://www.meetup.com/members/217497171/",
-        "icon": "fa-meetup"
+        "icon": "fab fa-meetup"
       },
       {
         "title": "Email",
         "value": "mailto:admin@adewra.com",
-        "icon": "fa-envelope"
+        "icon": "fas fa-envelope"
       },
       {
         "title": "Telephone",
         "value": "tel:08455196614",
-        "icon": "fa-phone"
+        "icon": "fas fa-phone"
       }
     ]
   },
@@ -277,7 +277,7 @@
       ],
       "description": "",
       "value": 95,
-      "icon": ""
+      "icon": "fas fa-map-marker-alt"
     },
     {
       "name": "Javascript",
@@ -297,7 +297,7 @@
       ],
       "description": "",
       "value": 95,
-      "icon": ""
+      "icon": "fab fa-js"
     },
     {
       "name": "FOSS",
@@ -323,9 +323,9 @@
           "link": "https://www.mongodb.com/"
         }
       ],
-      "description": "",
+      "description": "Free Open-Source Software",
       "value": 100,
-      "icon": ""
+      "icon": "fab fa-osi"
     },
     {
       "name": "Amazon",
@@ -349,7 +349,7 @@
       ],
       "description": "",
       "value": 100,
-      "icon": ""
+      "icon": "fab fa-aws"
     },
     {
       "name": "Apple",
@@ -365,7 +365,7 @@
       ],
       "description": "",
       "value": 70,
-      "icon": ""
+      "icon": "fab fa-apple"
     },
     {
       "name": "Microsoft",
@@ -385,7 +385,7 @@
       ],
       "description": "",
       "value": 75,
-      "icon": ""
+      "icon": "fab fa-microsoft"
     },
     {
       "name": "Low Level Electronics",
@@ -405,7 +405,7 @@
       ],
       "description": "",
       "value": 75,
-      "icon": ""
+      "icon": "fas fa-microchip"
     }
   ]},
   "languages": {
