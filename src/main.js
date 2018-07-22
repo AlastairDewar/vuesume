@@ -3,6 +3,9 @@ import App from './App'
 import router from './router'
 import store from './store'
 
+import VueLazyLoad from 'vue-lazyload'
+Vue.use(VueLazyLoad)
+
 import VueI18n from 'vue-i18n'
 import { translations } from '@/assets/lang/index.js'
 
@@ -15,6 +18,8 @@ const i18n = new VueI18n({
 })
 
 Vue.config.productionTip = false
+
+require('vue-image-lightbox/dist/vue-image-lightbox.min.css')
 
 /* eslint-disable no-new */
 new Vue({
