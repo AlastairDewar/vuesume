@@ -275,8 +275,16 @@
           "link": "https://www.atlassian.com/software/jira"
         },
         {
+          "name": "Bitbucket",
+          "link": "https://bitbucket.org/dashboard/overview"
+        },
+        {
           "name": "CircleCI",
           "link": "https://circleci.com/"
+        },
+        {
+          "name": "Bugsnag",
+          "link": "https://bugsnag.com/"
         }
       ],
       "description": "",
