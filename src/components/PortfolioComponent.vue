@@ -18,8 +18,8 @@ export default {
   },
   components: {'TimelineComponent': TimelineComponent, 'LightBox': LightBox},
   methods: {
-    openGallery (index) {
-      this.$refs.lightbox[0].showImage(index)
+    openGallery (project, index) {
+      this.$refs[`lightbox${project}`][0].showImage(index)
     }
   }
 }

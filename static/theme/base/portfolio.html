@@ -25,11 +25,11 @@
               <img
                 v-lazy="image.src"
                 style="height: 100px"
-                @click="openGallery(index)"
+                @click="openGallery(folio.project, index)"
               >
             </li>
           </ul>
-          <LightBox v-if="folio.images.length > 0" ref="lightbox" :images="folio.images" :show-caption="true" :show-light-box="false"></LightBox>
+          <LightBox v-if="folio.images.length > 0" :ref="'lightbox' + folio.project" :images="folio.images" :show-caption="true" :show-light-box="false"></LightBox>
         </div>
       </div>
     </article>
