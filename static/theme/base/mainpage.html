@@ -7,9 +7,9 @@
         </div>
         <div class="column is-6 card-boxing column-shadow">
           <BiographyComponent v-if="displaySection('biography')" class="cv-section"/>
-          <EducationComponent v-if="displaySection('education')" class="cv-section"/>
           <EmploymentComponent v-if="displaySection('employment')" class="cv-section"/>
           <PortfolioComponent v-if="displaySection('portfolio')" class="cv-section"/>
+          <EducationComponent v-if="displaySection('education')" class="cv-section"/>
           <SkillsComponent v-if="displaySection('skills')" class="cv-section"/>
           <EventsComponent v-if="displaySection('events')" class="cv-section no-print"/>
         </div>
