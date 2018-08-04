@@ -181,3 +181,11 @@ div.profile p.header-text {
 div.profile p.subheader-text {
   font-family: 'Old Standard TT', serif;
 }
+
+@media print
+{
+  .no-print, .no-print *
+  {
+    display: none !important;
+  }
+}
