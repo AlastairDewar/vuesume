@@ -8,8 +8,8 @@
   <switches v-model="advancedMode" text-enabled="Extended" text-disabled="Simple" theme="custom" color="white" type-bold="true"></switches>
 
   <div v-for="detail in profile.details" :key="detail.value" class="detail-item">
-      <p class="header-text has-text-light has-text-weight-light"><i class="icon fa" :class="[detail.icon]"></i>{{detail.title}}</p>
-      <p class="subheader-text has-text-light">
+      <p v-if="shouldRender(detail.advanced)" class="header-text has-text-light has-text-weight-light"><i class="icon fa" :class="[detail.icon]"></i>{{detail.title}}</p>
+      <p v-if="shouldRender(detail.advanced)" class="subheader-text has-text-light">
          {{detail.value}}
       </p>
   </div>

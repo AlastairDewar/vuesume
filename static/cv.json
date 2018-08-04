@@ -21,7 +21,8 @@
       {
         "title": "Remote Working",
         "value": "Interested",
-        "icon": "fas fa-map-marked-alt"
+        "icon": "fas fa-map-marked-alt",
+        "advanced": true
       }
     ],
     "external": [
@@ -483,6 +484,7 @@
     ]},
   "events": {
     "display": true,
+    "advanced": true,
     "icon": "calendar-alt",
     "items": [
       {

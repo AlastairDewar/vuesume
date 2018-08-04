@@ -12,10 +12,20 @@ export default {
       return this.$store.getters.getSection('profile')
     }
   },
+  methods: {
+    shouldRender (value) {
+      return value === undefined ? true : (value === this.$store.getters.getAdvancedMode)
+    }
+  },
   components: {'LanguagesComponent': LanguagesComponent, 'Switches': Switches},
   data () {
     return {
       advancedMode: false
+    }
+  },
+  watch: {
+    'advancedMode': function (val, oldVal) {
+      this.$store.dispatch('toggleAdvancedMode')
     }
   }
 }
