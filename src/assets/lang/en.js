@@ -9,7 +9,8 @@ const en = {
     portfolio: 'Portfolio',
     honors: 'Honors',
     about: 'Persona & Interests',
-    external: 'External'
+    external: 'External',
+    events: 'Events & Conferences'
   }
 }
 export default en

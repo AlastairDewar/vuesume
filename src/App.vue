@@ -10,6 +10,7 @@ import SkillsComponent from '@/components/SkillsComponent.vue'
 import PortfolioComponent from '@/components/PortfolioComponent.vue'
 import FooterComponent from '@/components/FooterComponent.vue'
 import LanguagesComponent from '@/components/LanguagesComponent.vue'
+import EventsComponent from '@/components/EventsComponent.vue'
 export default {
   name: 'top-page',
   components: {
@@ -21,6 +22,7 @@ export default {
     SkillsComponent,
     PortfolioComponent,
     LanguagesComponent,
+    EventsComponent,
     FooterComponent
   },
   created () {

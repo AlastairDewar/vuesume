@@ -8,7 +8,8 @@ const jp = {
     languages: '原語',
     portfolio: 'ポートフォリオ',
     honors: 'Honors',
-    about: '自己'
+    about: '自己',
+    events: ''
   }
 }
 export default jp

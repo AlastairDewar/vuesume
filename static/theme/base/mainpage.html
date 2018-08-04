@@ -10,14 +10,8 @@
           <EducationComponent v-if="displaySection('education')" class="cv-section"/>
           <EmploymentComponent v-if="displaySection('employment')" class="cv-section"/>
           <PortfolioComponent v-if="displaySection('portfolio')" class="cv-section"/>
-            <div class="columns is-variable is-8">
-              <div class="column">
-                <SkillsComponent v-if="displaySection('skills')" class="cv-section"/>
-              </div>
-              <div class="column">
-              <LanguagesComponent v-if="displaySection('languages')" class="cv-section"/>
-              </div>
-            </div>
+          <SkillsComponent v-if="displaySection('skills')" class="cv-section"/>
+          <EventsComponent v-if="displaySection('events')" class="cv-section"/>
         </div>
       </div>
     </div>

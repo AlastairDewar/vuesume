@@ -17,5 +17,23 @@ export default {
 </script>
 
 <style scoped>
+    .headline {
+        font-size: 16px !important;
+    }
 
+    .headline .icon {
+        margin-right: 0;
+    }
+
+    .headline span {
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        position: relative;
+        text-align: center;
+        background-color: hsl(217, 45%, 45%);
+    }
+
+    dl {
+      color: white;
+    }
 </style>

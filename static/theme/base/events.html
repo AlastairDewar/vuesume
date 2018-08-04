@@ -1,0 +1,13 @@
+<div class="content">
+    <h1 class="headline">
+    <span>
+      <span class="icon">
+        <i class="fa fa-calendar-alt"></i>
+      </span>{{$t("message.events")}}
+    </span>
+    </h1>
+    <dl v-for="group in events.items">
+        <dt>{{ group.name }}</dt>
+        <dd><a v-for="event in group.items" :href="event.link">{{ event.name }}</a></dd>
+    </dl>
+</div>
