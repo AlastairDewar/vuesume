@@ -1,0 +1,35 @@
+<div class="content">
+    <h1 class="headline">
+    <span>
+      <span class="icon">
+        <i class="fab fa-wpexplorer"></i>
+      </span>{{$t("message.exploring")}}
+    </span>
+    </h1>
+
+    <dl v-for="technology in technologoies.items" class="exploring-item">
+        <dt>
+            <i class="icon" v-bind:class="technology.icon" v-if="technology.icon != ''"></i>
+            <a :href="technology.link" v-if="technology.link != ''">{{technology.name}}</a>
+            <span v-else>{{technology.name}}</span>
+            <div class="examples">
+                <a v-if="technology.examples != ''" v-for="example in technology.examples" :href="example.link">{{example.text}}</a>
+            </div>
+
+        </dt>
+        <dd>
+            <article>
+              <div v-html="technology.description">
+              </div>
+
+              <footer v-if="technology.footnotes != ''">
+                <h2 id="footnote-label">Footnotes</h2>
+                <ol class="footnotes">
+                  <li v-for="example in technology.footnotes" :id="example.slug"><a :href="example.link" aria-describedby="footnote-label">{{example.text}}</a></li>
+                </ol>
+              </footer>
+            </article>
+        </dd>
+    </dl>
+
+</div>

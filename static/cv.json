@@ -560,5 +560,61 @@
         "value": 100,
         "icon": "GB"
       }
-    ]}
+    ]
+  },
+  "exploring": {
+    "display": true,
+    "advanced": true,
+    "items": [
+      {
+        "name": "Message Brokering",
+        "link": "",
+        "description": "When designing SPT's RTPI system, I designed it to have a small, inexpensive and low-power device, which would have general purpose input/outputs and could be deployed across thousands of public transport access points within the Strathclyde region. My exploration of Message Brokering is to enable a scalable way of collecting millions of data points from all across the region to better support the provision of transport within the area.",
+        "icon": "far fa-envelope",
+        "examples" : [
+          {
+            "text": "RabbitMQ",
+            "link": "https://www.rabbitmq.com/"
+          },
+          {
+            "text": "Kafka",
+            "link": "https://kafka.apache.org/"
+          }
+        ]
+      },
+      {
+        "name": "LoRaWAN",
+        "link": "https://lora-alliance.org/about-lorawan",
+        "description": "The largest overhead for a network of thousands of devices across a vast geographical area is the ability to get a communications signal or the cost associated with it. Traditionally we have used mobile telephony networks, however I am exploring the use of LoRaWAN, a protocol boasting a long-range and small bandwidth. Glasgow already boasts a large network and both SWAN & CENSIS <a href=\"#swan-iot-proposal\" aria-describedby=\"footnote-label\">recently announced their plans to continue the expansion of LoRaWAN</a>.",
+        "icon": "fas fa-wifi",
+        "footnotes" : [
+          {
+            "text": "SWAN IOT Proposal",
+            "slug": "swan-iot-proposal",
+            "link": "http://futurescot.com/capita-proposes-iot-enablement-of-swan-to-transform-scottish-public-services/"
+          }
+        ]
+      },
+      {
+        "name": "Search",
+        "link": "",
+        "description": "Lorem ipsum",
+        "icon": "fab fa-searchengin",
+        "examples" : [
+          {
+            "text": "Elastic Search",
+            "link": "https://www.elastic.co/"
+          },
+          {
+            "text": "Solr",
+            "link": "https://lucene.apache.org/solr/"
+          },
+          {
+            "text": "Algolia",
+            "link":"https://www.algolia.com/"
+          }
+        ]
+      }
+    ]
+  }
 }

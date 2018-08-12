@@ -10,7 +10,8 @@ const en = {
     honors: 'Honors',
     about: 'Persona & Interests',
     external: 'External',
-    events: 'Events & Conferences'
+    events: 'Events & Conferences',
+    exploring: 'What\'s Next'
   }
 }
 export default en

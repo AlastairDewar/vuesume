@@ -14,6 +14,9 @@ export default {
     },
     template () {
       return this.$store.getters.getTemplate('portfolio.html')
+    },
+    advancedMode () {
+      return this.$store.getters.getAdvancedMode
     }
   },
   components: {'TimelineComponent': TimelineComponent, 'LightBox': LightBox},
