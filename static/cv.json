@@ -89,7 +89,7 @@
     "items": [
       {
         "name": "SPT",
-        "start": "2016-09-19",
+        "start": "2016-04-01",
         "location": "Glasgow, Scotland, United Kingdom",
         "position": "Product Team Leader",
         "description": "At present I run a team of 5, consisting of software engineers and business analysts. I am responsible for the delivery of our Digital Transformation plan in line with our current Digital Strategy. We deliver technical products to a wide variety of stakeholders in order to aid the provision of transport across the Strathclyde region. Using an API-centric design I’ve lead the team in delivering a hugely scalable architecture from which to integrate every aspect of our business, into one source of data powering several different systems. We are 2 years into 3-year legacy application replacement programme that allows us to exercise our use of the agile scrum framework, replacing 24 years worth of product in just 3 years.",
@@ -97,8 +97,8 @@
       },
       {
         "name": "SPT",
-        "start": "2016",
-        "end": "2017",
+        "start": "2016-09-19",
+        "end": "2017-04-01",
         "location": "Glasgow, Scotland, United Kingdom",
         "position": "Software Engineer",
         "description": "As a Lead Developer on SPT’s core business application, I introduced an MVC framework and front-end technologoies such as Angular and Vue to work with our API Project. Used by over 500 employees, as well as hundreds of operators and local authorities users.",
@@ -118,7 +118,7 @@
         "start": "2010",
         "location": "Scotland, United Kingdom",
         "position": "Self-Employed / Software Engineer",
-        "description": "Developed multiple websites, web applications and desktop software, either on a freelance basis or on self-launched projects. A wealth of experience across multiple platforms and domains with solutions in use by over 10,000+ users.",
+        "description": "Developed multiple websites, web applications and desktop software, either on a freelance basis or on self-launched projects. A wealth of experience across multiple platforms and domains with services in use by over 10,000+ users.",
         "website": "http://www.adewra.com"
       }
     ]},
@@ -360,6 +360,22 @@
         "description": "",
         "value": 95,
         "icon": "fas fa-database"
+      },
+      {
+        "name": "Caching",
+        "technologies": [
+          {
+            "name": "Redis",
+            "link": "https://redis.io/"
+          },
+          {
+            "name": "Memcached",
+            "link": "https://memcached.org/"
+          }
+        ],
+        "description": "",
+        "value": 75,
+        "icon": "fas fa-shipping-fast"
       },
       {
         "name": "FOSS",
