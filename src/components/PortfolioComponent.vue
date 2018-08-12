@@ -29,10 +29,20 @@ export default {
 </script>
 
 <style scoped>
-    ul li img {
-        padding: 0 .125rem
+    import 'video.js/dist/video-js.css'
+
+    .stack {
+        margin: 20px auto;
+        width: 400px;
+        padding: 0;
+        position: relative;
+        max-width: 100%;
     }
-    ul li img:hover {
-        cursor: pointer;
+
+    .stack img {
+        max-width: 100%;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+        outline: 1px solid transparent;
     }
 </style>

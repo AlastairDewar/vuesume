@@ -17,18 +17,11 @@
           <a v-if="folio.website" class="icon fa fa-link" :href="folio.website"></a></p>
           <p class="subtitle">{{folio.tagline}}</p>
           <p class="has-text-justified">{{folio.description}}</p>
-          <ul v-if="folio.images.length > 0">
-            <li
-              v-for="(image, index) in folio.images"
-              style="display: inline-block"
-            >
-              <img
-                v-lazy="image.src"
-                style="height: 100px"
-                @click="openGallery(folio.project, index)"
-              >
-            </li>
-          </ul>
+          <section class="screenshots" v-if="advancedMode && folio.images.length > 0">
+            <figure class="stack stack-fanout active">
+              <img v-for="(image, index) in folio.images" style="display: inline-block; height: 100px;" v-lazy="image.src" @click="openGallery(folio.project, index)"/>
+            </figure>
+          </section>
           <LightBox v-if="folio.images.length > 0" :ref="'lightbox' + folio.project" :images="folio.images" :show-caption="true" :show-light-box="false"></LightBox>
         </div>
       </div>
