@@ -5,7 +5,7 @@
   <p class="has-text-light title"><span class="has-text-weight-light">{{profile.firstname}}</span> <span>{{profile.lastname}}</span></p>
   <p class="subtitle has-text-light is-size-6">{{profile.brief}}</p>
 
-  <switches v-model="advancedMode" text-enabled="Extended" text-disabled="Simple" theme="custom" color="white" type-bold="true"></switches>
+  <switches v-model="advancedMode" text-enabled="Supercharged" text-disabled="Simple" theme="custom" color="white" type-bold="true" title="Switch to Supercharged mode to see much more including Screenshots, Screencasts, Events/Conferences and What's Next"></switches>
 
   <div v-for="detail in profile.details" :key="detail.value" class="detail-item">
       <p v-if="shouldRender(detail.advanced)" class="header-text has-text-light has-text-weight-light"><i class="icon fa" :class="[detail.icon]"></i>{{detail.title}}</p>

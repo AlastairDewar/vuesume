@@ -9,10 +9,10 @@
     <dl v-for="skill in skills.stacks" class="cvitem">
       <dt>
           <i class="icon" v-bind:class="skill.icon" v-if="skill.icon != ''"></i>
-          <span :title="skill.description">{{skill.name}}</span> (<ul><li v-for="technology in skill.technologies"><a :href="technology.link" target="_blank">{{technology.name}}</a></li></ul>)
+          <span :title="skill.description">{{skill.name}}</span>
       </dt>
       <dd class="has-text-justified">
-
+          <ul><li v-for="technology in skill.technologies"><a :href="technology.link" target="_blank">{{technology.name}}</a></li></ul>
       </dd>
     </dl>
 </div>
