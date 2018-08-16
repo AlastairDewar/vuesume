@@ -59,6 +59,10 @@ export default {
         outline: 1px solid transparent;
     }
 
+    .stack img:hover {
+        cursor: grab;
+    }
+
     button.tag:not(body).is-medium {
       color: white;
       background-color: hsl(217, 45%, 45%);

@@ -10,6 +10,9 @@ export default {
   computed: {
     profile () {
       return this.$store.getters.getSection('profile')
+    },
+    languages () {
+      return this.$store.getters.getSection('languages')
     }
   },
   methods: {

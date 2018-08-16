@@ -30,7 +30,11 @@
             <ModalComponent v-show="isModalVisible" @close="closeModal">
               <h1 slot="header">Screencasts</h1>
               <template slot="body">
-                <VideoComponent v-for="(video, index) in folio.videos" :playlist="video"></VideoComponent>
+                <div class="row">
+                  <div class="columns column">
+                    <VideoComponent v-for="(video, index) in folio.videos" :playlist="video" ></VideoComponent>
+                  </div>
+                </div>
               </template>
             </ModalComponent>
           </section>

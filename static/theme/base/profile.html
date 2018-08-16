@@ -29,5 +29,5 @@
     </a>
   </div>
 
-  <LanguagesComponent />
+  <LanguagesComponent v-if="shouldRender(languages.advanced)"/>
 </div>

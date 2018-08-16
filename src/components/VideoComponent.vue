@@ -1,8 +1,8 @@
 <template>
-    <video-player  class="video-player-box"
+    <video-player  class="video-player-box  vjs-big-play-centered"
                    ref="videoPlayer"
                    :options="playerOptions"
-                   :playsinline="true"
+                   :playsinline="false"
                    :playlist="playlist"
                    customEventName="customstatechangedeventname"
 
@@ -61,6 +61,7 @@ export default {
          * details: true
          * });
          */
+      player.requestFullscreen()
     },
     onPlayerPause (player) {
         /**
@@ -138,7 +139,7 @@ export default {
 
     // player is ready
     playerReadied (player) {
-      console.log('the player is readied', player)
+      // console.log('the player is readied', player)
       // you can use it to do something...
       // player.[methods]
     }
@@ -147,6 +148,9 @@ export default {
 </script>
 
 <style>
+  .video-player {
+      padding: 1rem;
+  }
   .video-js {
     width: 100%;
     min-width: 400px;

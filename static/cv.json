@@ -622,6 +622,7 @@
   },
   "languages": {
     "display": true,
+    "advanced": true,
     "items": [
       {
         "name": "English",
