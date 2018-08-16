@@ -3,6 +3,7 @@
                    ref="videoPlayer"
                    :options="playerOptions"
                    :playsinline="true"
+                   :playlist="playlist"
                    customEventName="customstatechangedeventname"
 
                    @play="onPlayerPlay($event)"
@@ -28,6 +29,7 @@ import 'videojs-playlist/dist/videojs-playlist.js'
 // Similarly, you can also introduce the plugin resource pack you want to use within the component
 // import 'some-videojs-plugin'
 export default {
+  props: ['playlist'],
   data () {
     return {
       playerOptions: {
@@ -39,41 +41,11 @@ export default {
       }
     }
   },
+  components: {
+    videoPlayer
+  },
   mounted () {
-    console.log('this is current player instance object', this.player)
-    var playlist = [{
-      sources: [
-        {
-          type: 'video/mp4',
-          src: './static/screencasts/gis/GIS.mp4.mp4'
-        },
-        {
-          type: 'video/webm',
-          src: './static/screencasts/gis/GIS.webmhd.webm'
-        },
-        {
-          type: 'video/ogv',
-          src: './static/screencasts/gis/GIS.oggtheora.ogv'
-        }],
-      poster: ''
-    },
-    {
-      sources: [
-        {
-          type: 'video/mp4',
-          src: './static/screencasts/subway-car-sets/Subway Car Sets.mp4.mp4'
-        },
-        {
-          type: 'video/webm',
-          src: './static/screencasts/subway-car-sets/Subway Car Sets.webmhd.webm'
-        },
-        {
-          type: 'video/ogv',
-          src: './static/screencasts/subway-car-sets/Subway Car Sets.oggtheora.ogv'
-        }],
-      poster: ''
-    }]
-    this.player.playlist(playlist)
+    this.player.playlist([this.playlist])
     this.player.playlist.autoadvance(0)
   },
   computed: {
@@ -170,9 +142,6 @@ export default {
       // you can use it to do something...
       // player.[methods]
     }
-  },
-  components: {
-    videoPlayer
   }
 }
 </script>
@@ -180,5 +149,7 @@ export default {
 <style>
   .video-js {
     width: 100%;
+    min-width: 400px;
+    min-height: 225px;
   }
 </style>
