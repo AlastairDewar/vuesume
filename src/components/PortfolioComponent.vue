@@ -4,8 +4,14 @@
 import TimelineComponent from './TimelineComponent'
 import LightBox from 'vue-image-lightbox'
 import VideoComponent from './VideoComponent'
+import ModalComponent from './ModalComponent'
 
 export default {
+  data () {
+    return {
+      isModalVisible: false
+    }
+  },
   computed: {
     portfolio () {
       return this.$store.getters.getSection('portfolio')
@@ -20,10 +26,16 @@ export default {
       return this.$store.getters.getAdvancedMode
     }
   },
-  components: {'TimelineComponent': TimelineComponent, 'LightBox': LightBox, 'VideoComponent': VideoComponent},
+  components: {'TimelineComponent': TimelineComponent, 'LightBox': LightBox, 'VideoComponent': VideoComponent, 'ModalComponent': ModalComponent},
   methods: {
     openGallery (project, index) {
       this.$refs[`lightbox${project}`][0].showImage(index)
+    },
+    showModal () {
+      this.isModalVisible = true
+    },
+    closeModal () {
+      this.isModalVisible = false
     }
   }
 }
@@ -45,5 +57,10 @@ export default {
         -webkit-transition: all 0.3s;
         transition: all 0.3s;
         outline: 1px solid transparent;
+    }
+
+    button.tag:not(body).is-medium {
+      color: white;
+      background-color: hsl(217, 45%, 45%);
     }
 </style>
