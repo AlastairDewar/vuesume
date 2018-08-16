@@ -577,6 +577,10 @@
         "name": "I'm interested in going to",
         "items": [
           {
+            "name": "ScotlandPHP",
+            "link": "https://conference.scotlandphp.co.uk"
+          },
+          {
             "name": "UX Scotland",
             "link": "https://uxscotland.net/2018/"
           },
