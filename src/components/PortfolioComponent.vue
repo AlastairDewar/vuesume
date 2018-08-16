@@ -3,6 +3,7 @@
 <script>
 import TimelineComponent from './TimelineComponent'
 import LightBox from 'vue-image-lightbox'
+import VideoComponent from './VideoComponent'
 
 export default {
   computed: {
@@ -19,7 +20,7 @@ export default {
       return this.$store.getters.getAdvancedMode
     }
   },
-  components: {'TimelineComponent': TimelineComponent, 'LightBox': LightBox},
+  components: {'TimelineComponent': TimelineComponent, 'LightBox': LightBox, 'VideoComponent': VideoComponent},
   methods: {
     openGallery (project, index) {
       this.$refs[`lightbox${project}`][0].showImage(index)

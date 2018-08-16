@@ -6,6 +6,7 @@
       </span>{{$t("message.portfolio")}}
     </span>
   </h1>
+
   <div class="cvitem" v-for="folio in portfolio.items">
     <article class="media">
       <div class="media-left">
@@ -13,8 +14,7 @@
       </div>
       <div class="media-content">
         <div class="content">
-          <p class="title is-4 "><a>{{folio.employer}}</a> / {{folio.project}}
-          <a v-if="folio.website" class="icon fa fa-link" :href="folio.website"></a></p>
+          <p class="title is-4 "><a :href="folio.website">{{folio.employer}}</a> / <a @click="openGallery(folio.project, 0)">{{folio.project}}</a></p>
           <p class="subtitle">{{folio.tagline}}</p>
           <p class="has-text-justified">{{folio.description}}</p>
           <section class="screenshots" v-if="advancedMode && folio.images.length > 0">
@@ -23,6 +23,17 @@
             </figure>
           </section>
           <LightBox v-if="folio.images.length > 0" :ref="'lightbox' + folio.project" :images="folio.images" :show-caption="true" :show-light-box="false"></LightBox>
+          <section class="videos" v-if="advancedMode && folio.videos.length > 0">
+            <button type="button" class="btn tag is-medium" @click="showModal">
+              Screencasts
+            </button>
+            <ModalComponent v-show="isModalVisible" @close="closeModal">
+              <h1 slot="header">Screencasts</h1>
+              <template slot="body">
+                <VideoComponent v-for="(video, index) in folio.videos" :playlist="video"></VideoComponent>
+              </template>
+            </ModalComponent>
+          </section>
         </div>
       </div>
     </article>

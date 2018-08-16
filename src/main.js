@@ -20,6 +20,8 @@ const i18n = new VueI18n({
 Vue.config.productionTip = false
 
 require('vue-image-lightbox/dist/vue-image-lightbox.min.css')
+require('vue2-animate/dist/vue2-animate.min.css')
+require('video.js/dist/video-js.css')
 
 /* eslint-disable no-new */
 new Vue({
