@@ -6,16 +6,16 @@
       </span>{{$t("message.experience")}}
     </span>
   </h1>
-  <div class="cvitem" v-for="employ in employment.items">
+  <div class="cvitem" v-for="employment in employment.items">
     <article class="media">
       <div class="media-left">
-        <TimelineView :start="employ.start" :end="employ.end"></TimelineView>
+        <TimelineView :start="employment.start" :end="employment.end"></TimelineView>
       </div>
       <div class="media-content">
         <div class="content">
-          <p class="title is-4 "><a :href="employ.website">{{employ.name}}</a></p>
-          <p class="subtitle">{{employ.position}}</p>
-          <p class="has-text-justified">{{employ.description}}</p>
+          <p class="title is-4 "><a :href="employment.employer.website"><img class="employees-logo" :src="employment.employer.image" :alt="employment.employer.longname"/></a></p>
+          <p class="subtitle">{{employment.position}}</p>
+          <p class="has-text-justified">{{employment.description}}</p>
         </div>
       </div>
     </article>

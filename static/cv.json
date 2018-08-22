@@ -88,38 +88,54 @@
     "display": true,
     "items": [
       {
-        "name": "SPT",
+        "employer": {
+          "shortName": "SPT",
+          "longName": "Strathclyde Partnership for Transport",
+          "website": "http://www.spt.co.uk",
+          "image": "./static/images/SPT.svg"
+        },
         "start": "2016-04-01",
         "location": "Glasgow, Scotland, United Kingdom",
         "position": "Product Team Leader",
-        "description": "At present I run a Product team of of software engineers and business analysts. I am responsible for the delivery of our Digital Transformation plan in line with our current Digital Strategy. We deliver technical products to a wide variety of stakeholders in order to aid the provision of transport across the Strathclyde region. Using an API-centric design I’ve lead the team in delivering a hugely scalable architecture from which to integrate every aspect of our business, into one source of data powering several different systems. We are 2 years into 3-year legacy application replacement programme that allows us to exercise our use of the agile scrum framework, replacing 24 years worth of product in just 3 years.",
-        "website": "http://www.spt.co.uk"
+        "description": "At present I run a Product team of of software engineers and business analysts. I am responsible for the delivery of our Digital Transformation plan in line with our current Digital Strategy. We deliver technical products to a wide variety of stakeholders in order to aid the provision of transport across the Strathclyde region. Using an API-centric design I’ve lead the team in delivering a hugely scalable architecture from which to integrate every aspect of our business, into one source of data powering several different systems. We are 2 years into 3-year legacy application replacement programme that allows us to exercise our use of the agile scrum framework, replacing 24 years worth of product in just 3 years."
       },
       {
-        "name": "SPT",
+        "employer": {
+          "shortName": "SPT",
+          "longName": "Strathclyde Partnership for Transport",
+          "website": "http://www.spt.co.uk",
+          "image": "./static/images/SPT.svg"
+        },
         "start": "2016-09-19",
         "end": "2017-04-01",
         "location": "Glasgow, Scotland, United Kingdom",
         "position": "Software Engineer",
-        "description": "As a Lead Developer on SPT’s core business application, I introduced an MVC framework and front-end technologoies such as Angular and Vue to work with our API Project. Used by over 500 employees, as well as hundreds of operators and local authorities users.",
-        "website": "http://www.spt.co.uk"
+        "description": "As a Lead Developer on SPT’s core business application, I introduced an MVC framework and front-end technologies such as Angular and Vue to work with our API Project. Used by over 500 employees, as well as hundreds of operators and local authorities users."
       },
       {
-        "name": "Tannlin",
+        "employer": {
+          "shortName": "Tannlin",
+          "longName": "Tannlin",
+          "website": "https://www.tannlin.com",
+          "image": "./static/images/Tannlin.png"
+        },
         "start": "2012",
         "end": "2016",
         "location": "Prestwick, Scotland, United Kingdom",
         "position": "Software Engineer",
-        "description": "Creating, planning, developing, maintaining and continual expansion of multiple software solutions. Spanning embedded systems, desktop and web applications. I also worked in 6 countries across 3 continents, almost entirely on a individual basis, whilst working as part of a larger Systems team.",
-        "website": "http://www.tannlin.com"
+        "description": "Creating, planning, developing, maintaining and continual expansion of multiple software solutions. Spanning embedded systems, desktop and web applications. I also worked in 6 countries across 3 continents, almost entirely on a individual basis, whilst working as part of a larger Systems team."
       },
       {
-        "name": "Adewra",
+        "employer": {
+          "shortName": "Adewra",
+          "longName": "Adewra",
+          "website": "https://www.adewra.com",
+          "image": "./static/images/Adewra.png"
+        },
         "start": "2010",
         "location": "Scotland, United Kingdom",
         "position": "Freelance",
-        "description": "Developed multiple websites, web applications and desktop software, either on a freelance basis or on self-launched projects. A wealth of experience across multiple platforms and domains with services in use by over 10,000+ users.",
-        "website": "http://www.adewra.com"
+        "description": "Developed multiple websites, web applications and desktop software, either on a freelance basis or on self-launched projects. A wealth of experience across multiple platforms and domains with services in use by over 10,000+ users."
       }
     ]},
   "portfolio": {
@@ -282,7 +298,7 @@
         "employer": "Tannlin",
         "project": "Blueprint",
         "start": "2013-06-01",
-        "tagline": "Full manufacturing and online order management system",
+        "tagline": "Enterprise Resource Planning",
         "description": "The application took a collection of large CAD bundles containing 100MB's or GB's worth of PCB designs, and measuring and tracking their process through design, manufacture and delivery of the bespoke product for next-day delivery.",
         "website": "",
         "images": [
@@ -365,6 +381,26 @@
         "description": "",
         "value": 95,
         "icon": "fas fa-map-marker-alt"
+      },
+      {
+        "name": "PHP",
+        "technologies": [
+          {
+            "name": "Laravel",
+            "link": "https://www.laravel.com/"
+          },
+          {
+            "name": "Composer",
+            "link": "https://getcomposer.org/"
+          },
+          {
+            "name": "Guzzle",
+            "link": "http://docs.guzzlephp.org/en/stable/"
+          }
+        ],
+        "description": "",
+        "value": 95,
+        "icon": "fab fa-php"
       },
       {
         "name": "Javascript",
@@ -468,6 +504,10 @@
           {
             "name": "RDS",
             "link": "https://aws.amazon.com/rds/"
+          },
+          {
+            "name": "Elasticache",
+            "link": "https://aws.amazon.com/elasticache/"
           },
           {
             "name": "Redshift",

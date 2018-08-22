@@ -200,3 +200,7 @@ div.profile p.subheader-text {
   background-color: #f5f5f5;
   background-image: url(../../images/concrete-wall-transparent-texture.png);
 }
+
+img.employees-logo {
+    max-width: 10rem;
+}
