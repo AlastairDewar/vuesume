@@ -92,7 +92,7 @@
         "start": "2016-04-01",
         "location": "Glasgow, Scotland, United Kingdom",
         "position": "Product Team Leader",
-        "description": "At present I run a team of 5, consisting of software engineers and business analysts. I am responsible for the delivery of our Digital Transformation plan in line with our current Digital Strategy. We deliver technical products to a wide variety of stakeholders in order to aid the provision of transport across the Strathclyde region. Using an API-centric design I’ve lead the team in delivering a hugely scalable architecture from which to integrate every aspect of our business, into one source of data powering several different systems. We are 2 years into 3-year legacy application replacement programme that allows us to exercise our use of the agile scrum framework, replacing 24 years worth of product in just 3 years.",
+        "description": "At present I run a Product team of of software engineers and business analysts. I am responsible for the delivery of our Digital Transformation plan in line with our current Digital Strategy. We deliver technical products to a wide variety of stakeholders in order to aid the provision of transport across the Strathclyde region. Using an API-centric design I’ve lead the team in delivering a hugely scalable architecture from which to integrate every aspect of our business, into one source of data powering several different systems. We are 2 years into 3-year legacy application replacement programme that allows us to exercise our use of the agile scrum framework, replacing 24 years worth of product in just 3 years.",
         "website": "http://www.spt.co.uk"
       },
       {
@@ -668,7 +668,7 @@
       {
         "name": "Search",
         "link": "",
-        "description": "Lorem ipsum",
+        "description": "Until recently, I've worked with more contractual and operational projects where I've not had a great deal of exposure to exhaustive search in the same way in which you might get by building large e-commerce stores, so I'm looking at the latest in search technologies to widen my knowledge on the subject.",
         "icon": "fab fa-searchengin",
         "examples" : [
           {
