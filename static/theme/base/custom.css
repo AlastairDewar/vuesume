@@ -225,4 +225,22 @@ div#summary ol li:before {
   margin-left: -10px;
   padding: 2px 10px 0 0;
 }
+div#honors div.timeline-bar {
+  line-height: 1rem;
+  display: none;
+}
+div#honors div.timeline div.circle {
+  display: none;
+}
+div#honors {
+  margin-bottom: 0;
+}
+
+div#honors h1.headline {
+  font-size: 0.75rem;
+}
+
+div#honors  article.media p.title.is-4 {
+  font-weight: normal;
+}
 }
