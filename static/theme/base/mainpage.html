@@ -1,11 +1,11 @@
 <div>
   <section class="section">
     <div class="content">
-      <div class="columns is-8 is-centered">
+      <div class="columns is-12 is-centered">
         <div class="column is-2 column-shadow">
           <ProfileView/>
         </div>
-        <div class="column is-6 card-boxing column-shadow">
+        <div class="column is-9 card-boxing column-shadow">
           <SummaryComponent />
           <BiographyComponent v-if="displaySection('biography')" class="cv-section"/>
           <EmploymentComponent v-if="displaySection('employment')" class="cv-section"/>

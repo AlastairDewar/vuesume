@@ -189,14 +189,6 @@ div.profile p.subheader-text {
   margin-right: auto;
 }
 
-@media print
-{
-  .no-print, .no-print *
-  {
-    display: none !important;
-  }
-}
-
 .footer {
   background-color: #f5f5f5;
   background-image: url(../../images/concrete-wall-transparent-texture.png);
@@ -204,6 +196,9 @@ div.profile p.subheader-text {
 
 img.employees-logo {
     max-width: 10rem;
+    max-height: 3rem;
+}
+
 div#summary ol {
   margin: 0;
   padding: 0;
@@ -226,6 +221,9 @@ div#summary ol li:before {
   margin-left: -10px;
   padding: 2px 10px 0 0;
 }
+div#education {
+  margin-bottom: 0;
+}
 div#honors div.timeline-bar {
   line-height: 1rem;
   display: none;
@@ -244,4 +242,82 @@ div#honors h1.headline {
 div#honors  article.media p.title.is-4 {
   font-weight: normal;
 }
+
+@media screen {
+  .print-only, .print-only *
+  {
+    display: none !important;
+  }
+}
+
+@media print {
+
+  .no-print, .no-print *
+  {
+    display: none !important;
+  }
+
+  body {
+    font-size:80%;
+  }
+
+  div.detail-item p.header-text {
+    font-size: 0.85rem;
+  }
+  div.detail-item p.subheader-text, div.external, div#languages.content h1.headline span, div.detail-item, div#languages.content dd {
+    font-size: 0.75rem;
+  }
+  div.external, div#languages {
+    margin-bottom: 1rem;
+  }
+  div.external span, div#languages.content h1.headline span {
+    padding: 0;
+    padding-right: 0.25rem;
+    padding-left: -0.25rem;
+  }
+  img.employees-logo {
+    max-width: 5rem;
+  }
+  .title.is-4 {
+    font-size:1rem;
+  }
+  .subtitle {
+    font-size:1rem;
+    padding-top:1rem;
+  }
+  article.media {
+    font-size: 80%;
+  }
+  
+  label.vue-switcher {
+    display: none;
+  }
+
+  figure.image.profile-image {
+    width:80%;
+  }
+
+  div.media-content div.content p.has-text-justified {
+    /*line-height: 1.15rem;*/
+  }
+
+  div#skills dl.cvitem{
+    line-height: 0.75rem;
+  }
+
+  div.timeline div.timeline-bar {
+    line-height: 1.5rem;
+  }
+
+  div.timeline .tag:not(body).is-medium {
+    font-size: 0.75rem;
+  }
+
+  section.screenshots {
+    display: none;
+  }
+
+  section.videos {
+    display: none;
+  }
 }

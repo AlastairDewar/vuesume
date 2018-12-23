@@ -1,5 +1,5 @@
 
-<div class="content">
+<div id="education" class="content">
   <h1 class="headline">
     <span>
       <span class="icon">
@@ -31,7 +31,7 @@
               </span>{{$t("message.honors")}}
             </span>
           </h1>
-          <div class="cvitem" v-for="honor in honors.items">
+          <div id="honors" class="cvitem" v-for="honor in honors.items">
             <article class="media">
               <div class="media-left">
                 <TimelineComponent :start="honor.start" :end="honor.end"></TimelineComponent>
