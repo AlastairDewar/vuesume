@@ -1,7 +1,7 @@
 <div class="profile">
-  <figure class="image profile-image is-128x128" v-if="profile.image">
-    <img :src="profile.image" alt="profile">
-  </figure>
+    <figure class="image profile-image" v-if="profile.image">
+      <img :src="profile.image" alt="profile">
+    </figure>
   <p class="has-text-light title"><span class="has-text-weight-light">{{profile.firstname}}</span> <span>{{profile.lastname}}</span></p>
   <p class="subtitle has-text-light is-size-6">{{profile.brief}}</p>
 

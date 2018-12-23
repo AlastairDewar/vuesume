@@ -144,8 +144,9 @@ ul {
 
 .profile-image img {
   border: 1px white solid;
-  border-radius: 64px;
+  border-radius: 60%;
   padding: 2px;
+  width: 80%;
 }
 
 .subheader-text {

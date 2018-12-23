@@ -36,7 +36,7 @@ export default {
 
 <style>
     div.profile p.header-text i.icon {
-        margin-right: 0.5rem;
+        margin-right: 0.25rem;
     }
     span.vue-switcher__label {
         text-align: center;
