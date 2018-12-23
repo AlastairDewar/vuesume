@@ -11,7 +11,8 @@ const en = {
     about: 'Persona & Interests',
     external: 'External',
     events: 'Events & Conferences',
-    exploring: 'What\'s Next'
+    exploring: 'What\'s Next',
+    summary: 'Summary',
   }
 }
 export default en

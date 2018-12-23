@@ -6,6 +6,7 @@
           <ProfileView/>
         </div>
         <div class="column is-6 card-boxing column-shadow">
+          <SummaryComponent />
           <BiographyComponent v-if="displaySection('biography')" class="cv-section"/>
           <EmploymentComponent v-if="displaySection('employment')" class="cv-section"/>
           <PortfolioComponent v-if="displaySection('portfolio')" class="cv-section"/>

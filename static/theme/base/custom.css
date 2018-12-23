@@ -203,4 +203,26 @@ div.profile p.subheader-text {
 
 img.employees-logo {
     max-width: 10rem;
+div#summary ol {
+  margin: 0;
+  padding: 0;
+}
+div#summary ol li {
+  color: #4a4a4a;
+  margin: 5px 0 5px 10px;
+  text-shadow: 0 1px 0 white;
+  list-style-type: none;
+}
+div#summary ol li:before {
+  content: '\25ca';
+  display: inline-block;
+  color: white;
+  padding: 2px;
+  border-radius: .5px;
+  float: left;
+  clear: left;
+  text-shadow: -1px -1px 0 #4a4a4a;
+  margin-left: -10px;
+  padding: 2px 10px 0 0;
+}
 }

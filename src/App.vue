@@ -12,6 +12,7 @@ import FooterComponent from '@/components/FooterComponent.vue'
 import LanguagesComponent from '@/components/LanguagesComponent.vue'
 import EventsComponent from '@/components/EventsComponent.vue'
 import ExploringComponent from '@/components/ExploringComponent.vue'
+import SummaryComponent from '@/components/SummaryComponent.vue'
 export default {
   name: 'top-page',
   components: {
@@ -25,7 +26,8 @@ export default {
     LanguagesComponent,
     EventsComponent,
     FooterComponent,
-    ExploringComponent
+    ExploringComponent,
+    SummaryComponent
   },
   created () {
     this.$store.dispatch('loadCV')
