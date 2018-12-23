@@ -23,10 +23,8 @@ export default {
   methods: {
     toggleCourses (index) {
       this.$set(this.collapse, index, !this.collapse[index])
-      console.log(this.collapse)
     },
     isVisible (index) {
-      console.log('vis?', this.collapse[index])
       return this.collapse[index]
     }
   },
