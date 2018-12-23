@@ -19,7 +19,7 @@
         "icon": "fas fa-map-signs"
       },
       {
-        "title": "Remote Working",
+        "title": "Remote",
         "value": "Interested",
         "icon": "fas fa-map-marked-alt",
         "advanced": true
