@@ -23,7 +23,7 @@ export default {
   components: {'LanguagesComponent': LanguagesComponent, 'Switches': Switches},
   data () {
     return {
-      advancedMode: false
+      advancedMode: true
     }
   },
   watch: {
