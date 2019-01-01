@@ -43,22 +43,23 @@
       },
       {
         "title": "Email",
-        "value": "mailto:admin@adewra.com",
+        "value": "mailto:alastair@adewra.com",
         "icon": "fas fa-envelope"
       },
       {
         "title": "Telephone",
-        "value": "tel:08455196614",
+        "value": "tel:07514514092",
         "icon": "fas fa-phone"
       }
     ]
   },
     "summary": [
-      "Started writing software at 14",
       "Bachelor's in Computer Science",
-      "Currently running a legacy software upgrade programme within the Public Transport sector consisting of 1 Business Analyst, 1 GIS Developer and 4 Software Engineers",
+      "Currently running a legacy software replacement programme within the Public Transport sector consisting of 1 Business Analyst, 1 GIS Developer and 4 Software Engineers",
+      "14 years software experience",
       "A couple of years management experience",
-      "Previously wrote software for, and carried out pneumatic, electrical and mechanical engineering work for a commercial laser machine manufacturer in the electronics industry",
+      "Very big on setting up self-driven development and working in/with the Open Source community",
+      "Responsible for large data sets such as Glasgow Subway gate transactions and retail data (~200m records) using Data Warehousing",
       "Overseen the implementation of 2 ERP's, thousands of support tickets and over 30 different products using close to every stack there is out there"
     ],
   "biography": {
@@ -276,12 +277,6 @@
             "src": "./static/images/T11-Utilities.png",
             "caption": "T11 Utilities",
             "srcset": ""
-          },
-          {
-            "thumb": "./static/images/T11-Scanner-Performance-Analysis.png",
-            "src": "./static/images/T11-Scanner-Performance-Analysis.png",
-            "caption": "T11 Scanner Performance Analysis",
-            "srcset": ""
           }
         ],
         "videos" : [
@@ -344,6 +339,34 @@
     "displayProgress": true,
     "stacks": [
       {
+        "name": "Leadership & Management",
+        "technologies": [
+          {
+            "name": "Coaching & Mentoring",
+            "link": ""
+          },
+          {
+            "name": "Roadmapping",
+            "link": "https://medium.com/@johnpcutler/15-posts-on-roadmaps-prioritization-and-visualizing-the-work-28f8e1ff5406"
+          },
+          {
+            "name": "Conflict Resolution",
+            "link": "https://hackernoon.com/the-variety-of-product-management-tension-afe94ceafab4"
+          },
+          {
+            "name": "Mental Modelling",
+            "link": "https://blackboxofpm.com/product-management-mental-models-for-everyone-31e7828cb50b"
+          },
+          {
+            "name": "Minimum Viable Control",
+            "link": "https://hackernoon.com/minimum-viable-control-abe2279a2060"
+          }
+        ],
+        "description": "",
+        "value": 75,
+        "icon": "far fa-handshake"
+      },
+      {
         "name": "Project Management & Delivery",
         "technologies": [
           {
@@ -387,33 +410,13 @@
             "link": "https://www.mapbox.com/"
           },
           {
-            "name": "One Scotland Mapping Agreement",
-            "link": "https://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/one-scotland-mapping-agreement.html"
+            "name": "Ordnance Survey",
+            "link": "https://www.ordnancesurvey.co.uk/"
           }
         ],
         "description": "",
         "value": 95,
         "icon": "fas fa-map-marker-alt"
-      },
-      {
-        "name": "PHP",
-        "technologies": [
-          {
-            "name": "Laravel",
-            "link": "https://www.laravel.com/"
-          },
-          {
-            "name": "Composer",
-            "link": "https://getcomposer.org/"
-          },
-          {
-            "name": "Guzzle",
-            "link": "http://docs.guzzlephp.org/en/stable/"
-          }
-        ],
-        "description": "",
-        "value": 95,
-        "icon": "fab fa-php"
       },
       {
         "name": "Javascript",
@@ -423,8 +426,20 @@
             "link": "https://vuejs.org/v2/guide/"
           },
           {
+            "name": "React",
+            "link": "https://reactjs.org/"
+          },
+          {
+            "name": "React Native",
+            "link": "https://facebook.github.io/react-native/"
+          },
+          {
             "name": "NodeJS",
             "link": "https://nodejs.org/en/about/"
+          },
+          {
+            "name": "Express",
+            "link": "https://expressjs.com/"
           },
           {
             "name": "jQuery",
@@ -436,7 +451,7 @@
         "icon": "fab fa-js"
       },
       {
-        "name": "Databases",
+        "name": "Databases, Warehousing and Caching",
         "technologies": [
           {
             "name": "MySQL",
@@ -453,15 +468,7 @@
           {
             "name": "Redshift",
             "link": "https://aws.amazon.com/redshift/"
-          }
-        ],
-        "description": "",
-        "value": 95,
-        "icon": "fas fa-database"
-      },
-      {
-        "name": "Caching",
-        "technologies": [
+          },
           {
             "name": "Redis",
             "link": "https://redis.io/"
@@ -472,8 +479,8 @@
           }
         ],
         "description": "",
-        "value": 75,
-        "icon": "fas fa-shipping-fast"
+        "value": 95,
+        "icon": "fas fa-database"
       },
       {
         "name": "FOSS",
@@ -493,10 +500,6 @@
           {
             "name": "NGinx",
             "link": "https://www.nginx.com/"
-          },
-          {
-            "name": "MongoDB",
-            "link": "https://www.mongodb.com/"
           }
         ],
         "description": "Free Open-Source Software",
@@ -634,11 +637,15 @@
             "link": "https://conference.scotlandphp.co.uk"
           },
           {
+            "name": "PHP UK Conference",
+            "link": "https://www.phpconference.co.uk/"
+          },
+          {
             "name": "UX Scotland",
             "link": "https://uxscotland.net/2018/"
           },
           {
-            "name": "Software Architecture",
+            "name": "O'Reilly Software Architecture",
             "link": "https://conferences.oreilly.com/software-architecture/sa-eu"
           },
           {
@@ -662,7 +669,7 @@
             "link": "http://www.slush.org/"
           },
           {
-            "name": "Strata",
+            "name": "O'Reilly Strata Data Conference",
             "link": "https://conferences.oreilly.com/strata/strata-eu"
           },
           {
