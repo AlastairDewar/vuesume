@@ -6,7 +6,7 @@
     "firstname": "Ally",
     "lastname": "Dewar",
     "brief": "",
-    "image": "./static/images/Profile.jpg",
+    "image": "./static/images/Profile.png",
     "details": [
       {
         "title": "Location",
