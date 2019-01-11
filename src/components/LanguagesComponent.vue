@@ -26,7 +26,6 @@ export default {
     }
 
     .headline span {
-        font-family: 'Open Sans', sans-serif;
         color: white;
         position: relative;
         text-align: center;

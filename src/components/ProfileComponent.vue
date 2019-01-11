@@ -64,7 +64,7 @@ export default {
         top: 0;
     }
     .vue-switcher--bold .vue-switcher__label span {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Carme', sans-serif;
         color: #ffffff;
         font-size: 1.25rem;
         font-weight: 400;

@@ -47,7 +47,7 @@ export default {
 
 <style>
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Carme', sans-serif;
 }
 .fade-enter-active, .fade-leave-active {
   transition: opacity .33s

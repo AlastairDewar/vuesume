@@ -161,24 +161,24 @@ ul {
 }
 
 div.profile p.title {
-  font-family: 'Old Standard TT', serif;
+  font-family: 'Roboto', serif;
 }
 
 div.profile p.subtitle {
-  font-family: 'Serif PT', serif;
+  font-family: 'Roboto', serif;
 }
 
 .headline span {
-  font-family: 'Lora', serif;
+  font-family: 'Merriweather Sans', serif;
 }
 
 div.profile p.header-text {
   font-size: 1.15rem;
-  font-family: 'Serif PT', serif;
+  font-family: 'Roboto', serif;
 }
 
 div.profile p.subheader-text {
-  font-family: 'Old Standard TT', serif;
+  font-family: 'Roboto', serif;
 }
 
 .content figure {
