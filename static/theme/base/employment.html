@@ -17,6 +17,9 @@
           <p class="subtitle">{{employment.position}}</p>
           <p class="has-text-justified">{{employment.description}}</p>
         </div>
+        <ul>
+          <li v-for="responsibility in employment.responsibilities">{{responsibility}}</li>
+        </ul>
       </div>
     </article>
   </div>

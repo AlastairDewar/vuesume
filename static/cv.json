@@ -43,7 +43,7 @@
       },
       {
         "title": "Email",
-        "value": "mailto:alastair@adewra.com",
+        "value": "mailto:ally@adewra.com",
         "icon": "fas fa-envelope"
       },
       {
@@ -54,13 +54,12 @@
     ]
   },
     "summary": [
+      "Started writing software at 14",
       "Bachelor's in Computer Science",
-      "Currently running a legacy software replacement programme within the Public Transport sector consisting of 1 Business Analyst, 1 GIS Developer and 4 Software Engineers",
-      "14 years software experience",
-      "A couple of years management experience",
+      "Currently running an Enterprise Resource Planning and Geospatial Information Systems legacy transformation comprised of over 250 services across an organisation of 350+ employees, managing 1 GIS Developer and 5 Software Engineers, and working closely with 2 business analysts who help to support its delivery",
+      "Management experience, scrum master and agile enthusiast",
       "Very big on setting up self-driven development and working in/with the Open Source community",
-      "Responsible for large data sets such as Glasgow Subway gate transactions and retail data (~200m records) using Data Warehousing",
-      "Overseen the implementation of 2 ERP's, thousands of support tickets and over 30 different products using close to every stack there is out there"
+      "Overseen the implementation of 2 ERP tools, thousands of support tickets and over 30 different products offering more than 500 services using close to every stack there is out there."
     ],
   "biography": {
     "display": true,
@@ -106,7 +105,13 @@
         "start": "2016-04-01",
         "location": "Glasgow, Scotland, United Kingdom",
         "position": "Product Team Leader",
-        "description": "At present I am responsible for the delivery of our Digital Transformation plan in line with our current Digital Strategy. We deliver technical products to a wide variety of stakeholders in order to aid the provision of transport across the Strathclyde region. Using an API-centric design I’ve lead the team in delivering a hugely scalable architecture from which to integrate every aspect of our business, into one source of data powering several different systems. We are 2 years into 3-year legacy application replacement programme that allows us to exercise our use of the agile scrum framework, replacing 24 years worth of product in just 3 years."
+        "description": "At present I am responsible for the delivery of our Digital Transformation plan in line with our current Digital Strategy. We deliver technical products to a wide variety of stakeholders in order to aid the provision of transport across the Strathclyde region. Using an API-centric design I’ve lead the team in delivering a hugely scalable architecture from which to integrate every aspect of our business, into one source of data powering several different systems. We are 2 years into 3-year legacy application replacement programme that allows us to exercise our use of the agile scrum framework, replacing 24 years worth of product in just 3 years.",
+        "responsibilities": [
+          "Responsible for some of the digital services that provide transport to hundreds of thousands of people over 11 local authorities from Ardlui to Ballantrae, and Arran to Biggar.",
+          "Responsible for transport for thousands of school children every day across fixed/ flexible term contracts and the management of a contract portfolio of over £30m used to subside transport in the Strathclyde area.",
+          "Responsible for providing 50+ services to Glasgow Subway in order to keep it living up to its nickname of 'clockwork orange', and managing large data sets such as the Subway gate transactions and retail data (~200m records) using Data Warehousing.",
+          "Work towards implementing an Open Data Strategy in line with that of the Scottish Government's."
+        ]
       },
       {
         "employer": {
@@ -119,7 +124,8 @@
         "end": "2017-04-01",
         "location": "Glasgow, Scotland, United Kingdom",
         "position": "Software Engineer",
-        "description": "As a Lead Developer on SPT’s core business application, I introduced an MVC framework and front-end technologies such as Vue to work with our API Project. Used by over 500 employees, as well as hundreds of local bus operators and users across 12 local authorities."
+        "description": "As a Lead Developer on SPT’s core business application, I introduced an MVC framework and front-end technologies such as Vue to work with our API Project. Used by over 500 employees, as well as hundreds of local bus operators and users across 12 local authorities.",
+        "responsibilities": []
       },
       {
         "employer": {
@@ -132,7 +138,8 @@
         "end": "2016",
         "location": "Prestwick, Scotland, United Kingdom",
         "position": "Software Engineer",
-        "description": "Creating, planning, developing, maintaining and continual expansion of multiple software solutions. Spanning embedded systems, desktop and web applications. I also worked in 6 countries across 3 continents, almost entirely on a individual basis, whilst working as part of a larger Systems team."
+        "description": "Creating, planning, developing, maintaining and continual expansion of multiple software solutions. Spanning embedded systems, desktop and web applications. I also worked in 6 countries across 3 continents, almost entirely on a individual basis, whilst working as part of a larger Systems team.",
+        "responsibilities": []
       },
       {
         "employer": {
@@ -144,7 +151,8 @@
         "start": "2010",
         "location": "Scotland, United Kingdom",
         "position": "Freelance",
-        "description": "Developed multiple websites, web applications and desktop software, either on a freelance basis or on self-launched projects. A wealth of experience across multiple platforms and domains with services in use by over 10,000+ users."
+        "description": "Developed multiple websites, web applications and desktop software, either on a freelance basis or on self-launched projects. A wealth of experience across multiple platforms and domains with services in use by over 10,000+ users.",
+        "responsibilities": []
       }
     ]},
   "portfolio": {
@@ -402,8 +410,12 @@
         "name": "GIS",
         "technologies": [
           {
-            "name": "MongoDB",
-            "link": "https://www.mongodb.com/"
+            "name": "PostGIS",
+            "link": "https://postgis.net/"
+          },
+          {
+            "name": "GeoServer",
+            "link": "http://geoserver.org/"
           },
           {
             "name": "MapBox",
