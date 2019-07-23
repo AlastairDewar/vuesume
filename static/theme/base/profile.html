@@ -1,7 +1,9 @@
 <div class="profile">
+  <transition name="fadeDownBig">
     <figure class="image profile-image" v-if="profile.image">
       <img :src="profile.image" alt="profile">
     </figure>
+  </transition>
   <p class="has-text-light title"><span class="has-text-weight-light">{{profile.firstname}}</span> <span>{{profile.lastname}}</span></p>
   <p class="subtitle has-text-light is-size-6">{{profile.brief}}</p>
 
