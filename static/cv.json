@@ -97,15 +97,34 @@
     "items": [
       {
         "employer": {
+          "shortName": "STV",
+          "longName": "STV",
+          "website": "https://www.stv.tv",
+          "image": "./static/images/STV.png"
+        },
+        "start": "2019-12-01",
+        "location": "Glasgow, Scotland, United Kingdom",
+        "position": "Principal Engineer (Platform & Data)",
+        "description": "At present I am the lead engineer in the engine room behind the STV Player app. My work is centered around continued improvements to the serving of content (live, advanced assets, or post broadcast) to several in-house clients (Mobile, Web, Connected TV, etc) as well as distributing content to television set-top-boxes and partners such as Freeview, Virgin Media and Sky so everyone can catch up on their favourite shows.",
+        "responsibilities": [
+          "Support the delivery and management of STV and 3rd party content across many platforms.",
+          "Assist the front-end clients in developing and improving new features.",
+          "Feed into the personalisation and improved recommendation of content on the Player.",
+          "Work towards a more structured and uniform development experience for all engineers."
+        ]
+      },
+      {
+        "employer": {
           "shortName": "SPT",
           "longName": "Strathclyde Partnership for Transport",
           "website": "http://www.spt.co.uk",
           "image": "./static/images/SPT.svg"
         },
         "start": "2016-04-01",
+        "end": "2019-12-01",
         "location": "Glasgow, Scotland, United Kingdom",
         "position": "Product Team Leader",
-        "description": "At present I am responsible for the delivery of our Digital Transformation plan in line with our current Digital Strategy. We deliver technical products to a wide variety of stakeholders in order to aid the provision of transport across the Strathclyde region. Using an API-centric design I’ve lead the team in delivering a hugely scalable architecture from which to integrate every aspect of our business, into one source of data powering several different systems. We are 2 years into 3-year legacy application replacement programme that allows us to exercise our use of the agile scrum framework, replacing 24 years worth of product in just 3 years.",
+        "description": "I was responsible for the delivery of our Digital Transformation plan in line with the Digital Strategy. We delivered technical products to a wide variety of stakeholders in order to aid the provision of transport across the Strathclyde region. Using an API-centric design I’ve lead the team in delivering a hugely scalable architecture from which to integrate every aspect of our business, into one source of data powering several different systems. I orchestrated 2 out of 3 years worth legacy application replacement programme that allows us to exercise our use of the agile scrum framework, replacing 24 years worth of product in just 3 years.",
         "responsibilities": [
           "Responsible for some of the digital services that provide transport to hundreds of thousands of people over 11 local authorities from Ardlui to Ballantrae, and Arran to Biggar.",
           "Responsible for transport for thousands of school children every day across fixed/ flexible term contracts and the management of a contract portfolio of over £30m used to subside transport in the Strathclyde area.",
